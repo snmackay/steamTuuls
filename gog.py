@@ -136,6 +136,21 @@ def cleaner(contents):
 #arg = onGog
 ###############################################################################
 
+def selectAction(fetchedGogDB):
+    while 0==0:
+        print("Type 'on gog' for if Gog has the game.")
+        print("Type 'on sale' for a list of games with a reduced price")
+        text=input("Response: ")
+        if text =="on gog":
+            exists(fetchedGogDB)
+            break
+        elif text =="on sale":
+            gamesOnSale(fetchedGogDB)
+            break
+        else:
+            print("Not a valid input. Please try again.")
+
+
 def exists(fetchedGogDB):
     text=input("Type in the name of a game: ")
     boo=0
@@ -144,6 +159,12 @@ def exists(fetchedGogDB):
             print("Game is on GOG")
             print(i)
             boo=1
-
     if(boo==0):
         print("The game you typed in: [ "+ text + " ] is not on GOG rip :(")
+
+def gamesOnSale(fetchedGogDB):
+    for i in fetchedGogDB:
+        if float(i[4])!=0.00:
+            print(i[0] + " : " + i[4])
+
+###############################################################################

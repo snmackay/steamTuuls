@@ -45,7 +45,7 @@ def main(arg):
         createFile(cleanedFile,"dataBases/GOG.csv")
     elif arg =="onGog":
         fetchedGogDB=openFile("dataBases/GOG.csv")
-        gog.exists(fetchedGogDB)
+        gog.selectAction(fetchedGogDB)
 
 
 

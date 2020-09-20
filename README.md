@@ -39,7 +39,7 @@ Use:
                  .'.eeeeeeeeeeeeeeeeee.'.      :___:
       fsc      .'.eeeeeeeeeeeeeeeeeeeeee.'.         
               :____________________________:
- 
+
 
 DISCLAIMER: The goal is to promote games that do not use DRM utilities as they
             are detrimental to the customer experience. Illegal use of this
