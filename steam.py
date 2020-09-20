@@ -1,9 +1,14 @@
 import csv
 import os
 
+
+###############################################################################
+#Create Steam Database csv
+#passed arg: steamDB
+###############################################################################
 def drmListOpen():
     lines=[]
-    with open("steam_drm_free.txt",'r') as fp:
+    with open("dataBases/steam_drm_free.txt",'r') as fp:
         line=fp.readline()
         count=1
         while line:
@@ -82,6 +87,29 @@ def listOrganize(cleanedList):
                 temp.append("NOTES: "+ i[2])
         newList.append(temp)
 
-    for i in newList:
-        print(i)
+    #for i in newList:
+        #print(i)
     return newList
+
+###############################################################################
+
+
+
+###############################################################################
+#Check if the game passed is in the steam drm free list
+#arg = steamdrm?
+###############################################################################
+
+def exists(fetchedSteamDB):
+    text=input("Type in the name of a game: ")
+    boo=0
+    for i in fetchedSteamDB:
+        if text in i[0]:
+            print("Game is DRM Free")
+            print(i)
+            boo=0
+            break
+        else:
+            boo=1
+    if(boo==1):
+        print("The game you typed in: [ "+ text + " ] is not drm free")

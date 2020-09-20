@@ -1,0 +1,2696 @@
+{{DRM sidebar}}
+{{Projectbox|content=
+'''Project aim'''
+* List all games on [[Steam]] which are DRM-free, that meaning games which can be launched without the use of the Steam client.
+* '''DISCLAIMER: Currently this list isn't even remotely a complete listing of DRM-free games on Steam!'''
+
+'''Instructions'''
+* Mention "Steamworks title." in the Notes column for any DRM-free games which use Steamworks when launched through the Steam client.
+* This list '''now features all versions of the games''' - Windows, OS X and Linux versions that are DRM-Free will now have indicators to the right.
+* Section headers - Games are grouped in multiple categories for ease of use. Sections are listed alphabetically under their respective header.
+
+'''Definition of "DRM-free on Steam"'''
+* DRM-free on Steam '''does not''' refer to games which don't use third-party [[Digital rights management (DRM)|DRM]]; the Steam client '''is DRM''' if it is required to run the game.
+* DRM-free games on Steam are games which do not require the Steam client or any [[The Big List of 3rd Party DRM on Steam|third-party DRM]] in order to launch said game's respective executable or startup script (.exe|.bin|.app|.sh).
+* DRM-free games can be moved outside of the Steam folder and used freely.
+* Steam does not have any official designation for games which are/aren't DRM-free - these must be tested by the editors themselves.
+
+'''What is Steamworks?'''
+* Steamworks is an API for game developers. It can be used for free and is used to integrate Steam features and solutions within PC games. Steamworks DRM is called Custom Executable Generation (CEG) and like the every part of Steamworks, it's optional for the developers. There are many games which use Steamworks '''and''' are DRM-free. These specific games will be noted.
+* Steamworks-specific features such as Achievements, Cloud, Trading Cards, Leaderboards, multiplayer and other will not work if Steamworks games are launched outside of the Steam client.
+
+'''Discussion'''
+* Discuss the article on its [[Talk:The Big List of DRM-Free Games on Steam|Talk page]].
+* Discuss DRM-free games on the [https://www.gog.com/forum/general/list_of_drmfree_games_on_steam/page1 "List of DRM-free games on Steam" thread on the GOG.com Community Discussions].
+
+'''Other information'''
+* [[The Big List of 3rd Party DRM on Steam]] - A comparable list of Steam games which feature Third Party DRM.
+* [https://www.gog.com/forum/general/list_of_drmfree_games_on_steam/page1 "List of DRM-free games on Steam" thread on the GOG.com Community Discussions] - Note that some of the games listed may be outdated or outright false.
+* [http://steam.wikia.com/wiki/List_of_DRM-free_games "List of DRM-free games on Steam" similar wiki page on wikia.com, but somewhat more active] - Note that any game listed there should still be tested before added here.
+
+'''Main contacts'''
+* [[User:AsavarTzeth|AsavarTzeth]] (User page to be added, if wished)
+* [[User:Nicereddy|Nicereddy]]
+* [[User:Garrett|Garrett]]
+}}
+
+==Developer/Publisher-Specific==
+===Bohemia Interactive===
+{|class="wikitable" style="width: 100%"
+|-
+! scope="col" style="width:22%" | Name
+! scope="col" style="width:6%;min-width:84px" | Store Page
+! scope="col" style="width:63%" | Notes
+! scope="col" style="width:3%;min-width:40px" | Win
+! scope="col" style="width:3%;min-width:40px" | OS X
+! scope="col" style="width:3%;min-width:40px" | Linux
+|-
+{{ii}} Since GameSpy shut down, major changes happened to the ARMA series. You can read about it [https://steamcommunity.com/app/33900/discussions/0/37470848680002401/ here].
+{{ii}} [[ARMA II: Operation Arrowhead]] transitioned to Steamworks and BI added DRM.
+{{ii}} Before you run the listed games (except Tactics, Original War and UFO: Afterlight), run BattlEye (anti-cheat) from its folder or run the game from the Steam client to install it otherwise it will pop up the message "bad serial number given in Setup".
+|-
+|[[Arma 2]]
+|style="text-align: center;"|{{store link|Steam|33900|Link}}
+|
+|style="text-align: center;"|✔
+|-
+|[[Arma Tactics]]
+|style="text-align: center;"|{{store link|Steam|224860|Link}}
+|
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|[[Arma: Armed Assault]]
+|style="text-align: center;"|{{store link|Steam|65780|Link}}
+|
+|style="text-align: center;"|✔
+|-
+|[[Arma: Cold War Assault]]
+|style="text-align: center;"|{{store link|Steam|65790|Link}}
+|
+|style="text-align: center;"|✔
+|-
+|[[Original War]]
+|style="text-align: center;"|{{store link|Steam|235320|Link}}
+|
+|style="text-align: center;"|✔
+|-
+|[[Take On Helicopters]]
+|style="text-align: center;"|{{store link|Steam|65730|Link}}
+|
+|style="text-align: center;"|✔
+|-
+|[[UFO: Afterlight]]
+|style="text-align: center;"|{{store link|Steam|237950|Link}}
+|
+|style="text-align: center;"|✔
+|-
+|}
+
+===Devolver Digital===
+{|class="wikitable" style="width: 100%"
+|-
+! scope="col" style="width:22%" | Name
+! scope="col" style="width:6%;min-width:84px" | Store Page
+! scope="col" style="width:63%" | Notes
+! scope="col" style="width:3%;min-width:40px" | Win
+! scope="col" style="width:3%;min-width:40px" | OS X
+! scope="col" style="width:3%;min-width:40px" | Linux
+|-
+|[[Broforce]]
+|style="text-align: center;"|{{store link|Steam|274190|Link}}
+|Steamworks title. Offline play only.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Enter the Gungeon]]
+|style="text-align: center;"|{{store link|Steam|311690|Link}}
+|DRM-free when Steam is not installed or by  creating a {{file|steam_appid.txt}} containing its Steam App ID number {{code|311690}} in the game's installation directory.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Hatoful Boyfriend]]
+|style="text-align: center;"|{{store link|Steam|310080|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Hatoful Boyfriend: Holiday Star]]
+|style="text-align: center;"|{{store link|Steam|377080|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Heavy Bullets]]
+|style="text-align: center;"|{{store link|Steam|297120|Link}}
+|Steamworks title. Leaderboards cannot be accessed if the game is not launched through Steam.
+|style="text-align: center;"|✔
+|-
+|[[Hotline Miami]]
+|style="text-align: center;"|{{store link|Steam|219150|Link}}
+|Steamworks title. DRM-free if you disable Steamworks (on Windows) when game launches. Linux is DRM-Free out of the box.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|[[Hotline Miami 2: Wrong Number]]
+|style="text-align: center;"|{{store link|Steam|274170|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Luftrausers]]
+|style="text-align: center;"|{{store link|Steam|233150|Link}}
+|Steamworks title. Leaderboards cannot be accessed if the user is not logged into Steam.
+|style="text-align: center;"|✔
+|-
+|[[Mother Russia Bleeds]]
+|style="text-align: center;"|{{store link|Steam|361300|Link}}
+|DRM-free when Steam is not installed or by  creating a {{file|steam_appid.txt}} containing its Steam App ID number {{code|361300}} in the game's installation directory. Cannot access online leaderboards without a Steam log-in, but plays fine otherwise. Any in-game achievements unlocked offline will unlock Steam Achievements retroactively.<ref>{{Refcheck|user=AmethystViper|date=2020-04-27|comment=Unlocked a previously locked Steam Achievement after meeting its requirements when the game was played without Steam.}}</ref>
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Reigns]]
+|style="text-align: center;"|{{store link|Steam|474750|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Serious Sam Classic: The First Encounter]]
+|style="text-align: center;"|{{store link|Steam|41050|Link}}
+|HD version has CEG.
+|style="text-align: center;"|✔
+|-
+|[[Serious Sam Classic: The Second Encounter]]
+|style="text-align: center;"|{{store link|Steam|41060|Link}}
+|HD version has CEG.
+|style="text-align: center;"|✔
+|-
+|[[Serious Sam Classics: Revolution]]
+|style="text-align: center;"|{{store link|Steam|227780|Link}}
+|
+|style="text-align: center;"|✔
+|-
+|}
+
+===Double Fine Productions===
+{|class="wikitable" style="width: 100%"
+{{++}} Every new game released by Double Fine Productions is DRM-free and even some they publish.{{cn|date=July 2017}} [[Costume Quest]] is the only exception.<ref>[https://forums.doublefine.com/topic/6585-costume-quest-on-gog/ Costume Quest on GOG - Costume Quest - Double Fine Action Forums]</ref>
+|-
+! scope="col" style="width:22%" | Name
+! scope="col" style="width:6%;min-width:84px" | Store Page
+! scope="col" style="width:63%" | Notes
+! scope="col" style="width:3%;min-width:40px" | Win
+! scope="col" style="width:3%;min-width:40px" | OS X
+! scope="col" style="width:3%;min-width:40px" | Linux
+|-
+|[[Broken Age]]
+|style="text-align: center;"|{{store link|Steam|232790|Link}}
+|Steamworks title.
+|style="text-align: center;"|❌
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|[[Brutal Legend]]
+|style="text-align: center;"|{{store link|Steam|225260|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|[[The Cave]]
+|style="text-align: center;"|{{store link|Steam|221810|Link}}
+|Steamworks title.
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|[[Psychonauts]]
+|style="text-align: center;"|{{store link|Steam|3830|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|[[Spacebase DF-9]]
+|style="text-align: center;"|{{store link|Steam|246090|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|[[Stacking]]
+|style="text-align: center;"|{{store link|Steam|115110|Link}}
+|Steamworks title.
+|style="text-align: center;"|❌
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|}
+
+===Larian Studios===
+{|class="wikitable" style="width: 100%"
+|-
+! scope="col" style="width:22%" | Name
+! scope="col" style="width:6%;min-width:84px" | Store Page
+! scope="col" style="width:63%" | Notes
+! scope="col" style="width:3%;min-width:40px" | Win
+! scope="col" style="width:3%;min-width:40px" | OS X
+! scope="col" style="width:3%;min-width:40px" | Linux
+|-
+|[[Beyond Divinity]]
+|style="text-align: center;"|{{store link|Steam|219760|Link}}
+|
+|style="text-align: center;"|✔
+|-
+|[[Divine Divinity]]
+|style="text-align: center;"|{{store link|Steam|214170|Link}}
+|
+|style="text-align: center;"|✔
+|-
+|[[Divinity II: Developer's Cut]]
+|style="text-align: center;"|{{store link|Steam|219780|Link}}
+|Free upgrade for owners of [[Divinity II: Ego Draconis]] or [[Divinity II: The Dragon Knight Saga]].
+|style="text-align: center;"|✔
+|-
+|[[Divinity: Dragon Commander]]
+|style="text-align: center;"|{{store link|Steam|243950|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|-
+|[[Divinity: Original Sin]]
+|style="text-align: center;"|{{store link|Steam|230230|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|}
+
+===inXile Entertainment===
+{{++}} Every game released by inXile Entertainment is DRM-free.{{cn|date=July 2017|reason=Appears to be Linux only.}}
+{|class="wikitable" style="width: 100%"
+|-
+! scope="col" style="width:22%" | Name
+! scope="col" style="width:6%;min-width:84px" | Store Page
+! scope="col" style="width:63%" | Notes
+! scope="col" style="width:3%;min-width:40px" | Win
+! scope="col" style="width:3%;min-width:40px" | OS X
+! scope="col" style="width:3%;min-width:40px" | Linux
+|-
+|[[The Bard's Tale]]
+|style="text-align: center;"|{{store link|Steam|41900|Link}}
+|
+|style="text-align: center;"|❌
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|[[Wasteland]] 1 - The Original Classic
+|style="text-align: center;"|{{store link|Steam|259130|Link}}
+|Steamworks title.
+|style="text-align: center;"|❌
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|[[Wasteland 2]]
+|style="text-align: center;"|{{store link|Steam|240760|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|}
+
+===Paradox Development Studio===
+{|class="wikitable" style="width: 100%"
+|-
+! scope="col" style="width:22%" | Name
+! scope="col" style="width:6%;min-width:84px" | Store Page
+! scope="col" style="width:63%" | Notes
+! scope="col" style="width:3%;min-width:40px" | Win
+! scope="col" style="width:3%;min-width:40px" | OS X
+! scope="col" style="width:3%;min-width:40px" | Linux
+|-
+|[[Arsenal of Democracy: A Hearts of Iron Game]]
+|style="text-align: center;"|{{store link|Steam|42850|Link}}
+|Steam and other digital distributors have outdated v1.07 because Paradox dropped support. Download [https://forum.paradoxplaza.com/forum/showthread.php?628167-108is-released&p=14262019&viewfull=1 v1.08 patch] and apply it.
+It is highly recommended by developers.<ref>[https://forum.paradoxplaza.com/forum/showthread.php?628173-108-Patch-is-released 108 Patch is released]</ref> After patch, game is DRM-free.
+|style="text-align: center;"|✔
+|-
+|[[Cities in Motion]]
+|style="text-align:center;"|{{store link|Steam|73010|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|[[Commander: Conquest of the Americas]]
+|style="text-align: center;"|{{store link|Steam|49300|Link}}
+|Gold Edition tested.
+|style="text-align: center;"|✔
+|-
+|[[Crusader Kings Complete]]
+|style="text-align: center;"|{{store link|Steam|204940|Link}}
+|
+|style="text-align: center;"|✔
+|-
+|[[Darkest Hour: A Hearts of Iron Game]]
+|style="text-align: center;"|{{store link|Steam|73170|Link}}
+|Steam has outdated v1.02. Download [https://forum.paradoxplaza.com/forum/showthread.php?635575-Darkest-Hour-Patch-1.03-Hot-fixes v1.03 patch] from developers and read Installation notes - Steam users. After patch, game is DRM-free.
+|style="text-align: center;"|✔
+|-
+|[[East India Company]]
+|style="text-align: center;"|{{store link|Steam-sub|4190|Link}}
+|
+|style="text-align: center;"|✔
+|-
+|[[Europa Universalis III Complete]]
+|style="text-align: center;"|{{store link|Steam|25800|Link}}
+|Steamworks title. Includes {{store link|Steam|25806|Heir to the Throne}} and {{store link|Steam|25808|Divine Wind}} expansions and all DLCs.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|-
+|[[Europa Universalis IV]]
+|style="text-align: center;"|{{store link|Steam|236850|Link}}
+|Steamworks title. Includes all expansions and DLCs.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|[[Europa Universalis: Rome|Europa Universalis: Rome - Gold Edition]]
+|style="text-align: center;"|{{store link|Steam|23420|Link}}
+|
+|style="text-align: center;"|✔
+|-
+|[[For the Glory: A Europa Universalis Game]]
+|style="text-align: center;"|{{store link|Steam|42810|Link}}
+|Download [https://forum.paradoxplaza.com/forum/showthread.php?506761-FTG-Patch-1.1-amp-1.2-portable-(in-archive-no-installation-needed v1.2 patch] in archive for DRM-free version of game.
+|style="text-align: center;"|✔
+|-
+|[[Hearts of Iron II|Hearts of Iron 2 Complete]]
+|style="text-align: center;"|{{store link|Steam|22130|Link}}
+|
+|style="text-align: center;"|✔
+|-
+|[[Hearts of Iron III]]
+|style="text-align: center;"|{{store link|Steam|25890|Link}}
+|Steamworks title. Includes all expansions and DLCs.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|-
+|[[Knights of Pen and Paper +1 Edition]]
+|style="text-align:center;"|{{store link|Steam|231740|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Majesty Gold HD]]
+|style="text-align: center;"|{{store link|Steam|25990|Link}}
+|Run <code>MajestyHD.exe</code> from the HD folder.
+|style="text-align: center;"|✔
+|-
+|[[Majesty 2]]
+|style="text-align: center;"|{{store link|Steam|25980|Link}}
+|
+|style="text-align: center;"|✔
+|-
+|[[March of the Eagles]]
+|style="text-align: center;"|{{store link|Steam|227760|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|-
+|[[Sengoku]]
+|style="text-align: center;"|{{store link|Steam|73210|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|-
+|[[Victoria II]]
+|style="text-align: center;"|{{store link|Steam|42960|Link}}
+|Steamworks title. Includes {{store link|Steam|42968|A House Divided}} and {{store link|Steam|215001/and Heart of Darkness] expansions and all DLCs.
+|style="text-align: center;"|✔
+|-
+|}
+
+===SEGA===
+{|class="wikitable" style="width: 100%"
+|-
+! scope="col" style="width:22%" | Name
+! scope="col" style="width:6%;min-width:84px" | Store Page
+! scope="col" style="width:72%" | Notes
+! scope="col" style="width:3%;min-width:40px" | Win
+! scope="col" style="width:3%;min-width:40px" | OS X
+! scope="col" style="width:3%;min-width:40px" | Linux
+|-
+|[[Alpha Protocol]]
+|style="text-align:center;"|{{store link|Steam|34010|Link}}
+|Run <code>Binaries\APGame.exe</code>, not <code>APLauncher.exe</code>.
+|style="text-align: center;"|✔
+|style="text-align: center;"|❌
+|style="text-align: center;"|❌
+|-
+|[[Crazy Taxi (Steam)]]
+|style="text-align: center;"|{{store link|Steam|71230|Link}}
+|DRM-free when Steam is not installed or by creating a {{file|steam_appid.txt}} file in the game's installation directory containing its Steam App ID number {{code|71230}}.
+|style="text-align: center;"|✔
+|-
+|[[Jack Lumber]]
+|style="text-align: center;"|{{store link|Steam|220900|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Sega Bass Fishing (Steam)]]
+|style="text-align: center;"|{{store link|Steam|71240|Link}}
+|DRM-free when Steam is not installed or by creating a {{file|steam_appid.txt}} file in the game's installation directory containing its Steam App ID number {{code|71240}}.
+|style="text-align: center;"|✔
+|-
+|[[Sega Mega Drive and Genesis Classics]]
+|style="text-align: center;"|{{store link|Steam-sub|102625|Link}}
+|The "Simple" launcher ({{file|SEGAGenesisClassics.exe}}) is a DRM-free Sega Genesis emulator, however the [[Engine:Unity|Unity]]-based "Hub" launcher ({{file|SEGAGameRoom.exe}}) requires Steam DRM.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Sonic Adventure DX (Steam)]]
+|style="text-align: center;"|{{store link|Steam|71250|Link}}
+|DRM-free when Steam is not installed or by  creating a {{file|steam_appid.txt}} file in the game's installation directory containing its Steam App ID number {{code|71250}}.
+|style="text-align: center;"|✔
+|-
+|[[Sonic the Hedgehog 4 - Episode I]]
+|style="text-align: center;"|{{store link|Steam|202530|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|-
+|[[Space Channel 5: Part 2 (Steam)]]
+|style="text-align: center;"|{{store link|Steam|71260|Link}}
+|DRM-free when Steam is not installed or by creating a {{file|steam_appid.txt}} file in the game's installation directory containing its Steam App ID number {{code|71260}}.
+|style="text-align: center;"|✔
+|-
+|[[Valkyria Chronicles]]
+|style="text-align: center;"|{{store link|Steam|294860|Link}}
+|DRM-free when Steam is not installed or when {{file|steam_appid.txt}} is in directory containing any number.<ref>[https://www.gog.com/forum/general/steam_games_you_can_play_without_the_steam_client/post600 Steam games you can play without the Steam client :: GOG.com Community Discussions]</ref>
+|style="text-align: center;"|✔
+|-
+|}
+
+===Square Enix===
+{|class="wikitable" style="width: 100%"
+|-
+! scope="col" style="width:22%" | Name
+! scope="col" style="width:6%;min-width:84px" | Store Page
+! scope="col" style="width:72%" | Notes
+|-
+|[[Dungeon Siege]]
+|style="text-align: center;"|{{store link|Steam|39190|Link}}
+|
+|-
+|[[Dungeon Siege II]]
+|style="text-align: center;"|{{store link|Steam|39200|Link}}
+|
+|-
+|[[Final Fantasy X/X-2 HD Remaster]]
+|style="text-align: center;"|{{store link|Steam|359870|Link}}
+|
+|-
+|[[Final Fantasy XII: The Zodiac Age]]
+|style="text-align: center;"|{{store link|Steam|595520|Link}}
+|DRM-free when Steam is not installed or when {{file|steam_appid.txt}} is in directory containing any number.<ref>[https://www.gog.com/forum/general/steam_games_you_can_play_without_the_steam_client/post1327 Steam games you can play without the Steam client :: GOG.com Community Discussions]</ref>
+|-
+|[[Thief Gold]]
+|style="text-align: center;"|{{store link|Steam|211600|Link}}
+|
+|-
+|[[Thief II: The Metal Age]]
+|style="text-align: center;"|{{store link|Steam|211740|Link}}
+|
+|-
+|[[Tomb Raider: The Last Revelation]]
+|style="text-align: center;"|{{store link|Steam|224980|Link}}
+|
+|-
+|}
+
+===Ubisoft===
+{|class="wikitable" style="width: 100%"
+|-
+! scope="col" style="width:22%" | Name
+! scope="col" style="width:6%;min-width:84px" | Store Page
+! scope="col" style="width:72%" | Notes
+! scope="col" style="width:3%;min-width:40px" | Win
+! scope="col" style="width:3%;min-width:40px" | OS X
+! scope="col" style="width:3%;min-width:40px" | Linux
+|-
+|[[Anno 1404]]
+|style="text-align: center;"|{{store link|Steam|33250|Link}}
+|Includes {{store link|Steam|33350|Venice}} add-on. Anno 1404 is European name and is used only in AU and NZ outside Europe. Game was pulled from Steam years ago but is back from March 2014. Returned version of game is updated to v1.3 and v2.1 and is same as retail version. TAGES DRM was removed in those last patches. There are <code>TagesClient.dat</code> and <code>TagesClient.exe</code> files but they are inert and can be deleted. Ubisoft didn't update Store page to remove warning about 3rd party DRM.
+|style="text-align: center;"|✔
+|-
+|[[Assassin's Creed|Assassin's Creed: Director's Cut Edition]]
+|style="text-align: center;"|{{store link|Steam|15100|Link}}
+|Run game via DX9 launcher.
+|style="text-align: center;"|✔
+|-
+|[[Dawn of Discovery]]
+|style="text-align: center;"|{{store link|Steam|33210|Link}}
+|Includes {{store link|Steam|33340|Venice}} add-on. Dawn of Discovery is Anno 1404's worldwide name outside Europe. Read Anno 1404 notes for further info.
+|style="text-align: center;"|✔
+|-
+|[[Far Cry 2: Fortune's Edition]]
+|style="text-align: center;"|{{store link|Steam|19900|Link}}
+|
+|style="text-align: center;"|✔
+|-
+|[[Heroes of Might & Magic V: Tribes of the East]]
+|style="text-align: center;"|{{store link|Steam|15370|Link}}
+|Run <code>H5_Game.exe</code> from binDM folder, not from bin folder.
+|style="text-align: center;"|✔
+|-
+|[[Outland]]
+|style="text-align: center;"|{{store link|Steam|305050|Link}}
+|'''Linux''': Run <code>RunGameNoSteamRT.sh</code> from game folder.
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|[[Rayman Origins]]
+|style="text-align: center;"|{{store link|Steam|207490|Link}}
+|
+|style="text-align: center;"|✔
+|style="text-align: center;"|❌
+|-
+|}
+
+===Valve===
+{|class="wikitable" style="width: 100%"
+|-
+! scope="col" style="width:22%" | Name
+! scope="col" style="width:6%;min-width:84px" | Store Page
+! scope="col" style="width:63%" | Notes
+! scope="col" style="width:3%;min-width:40px" | Win
+! scope="col" style="width:3%;min-width:40px" | OS X
+! scope="col" style="width:3%;min-width:40px" | Linux
+|-
+|[[Black Mesa]]
+|style="text-align: center;"|{{store link|Steam|362890|Link}}
+|Steamworks title. In Terminal run: '''Linux''': {{code|./bms.sh}}.
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|[[Counter Strike: Source]]
+|style="text-align: center;"|{{store link|Steam|240|Link}}
+|Steamworks title. In Cmd/Terminal run: '''Windows''': {{code|hl2.exe -game cstrike}} '''Linux''': {{code|./hl2.sh -game cstrike}}. Use console to create/join lan server.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|[[Half-Life: Source]]
+|style="text-align: center;"|{{store link|Steam|280|Link}}
+|Steamworks title. In Cmd/Terminal run: '''Windows''': {{code|hl2.exe -game hl1}} '''Linux''': {{code|./hl2.sh -game hl1}}.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|[[Half-Life Deathmatch: Source]]
+|style="text-align: center;"|{{store link|Steam|360|Link}}
+|Steamworks title. In Cmd/Terminal run: '''Windows''': {{code|hl2.exe -game hl1mp}} '''Linux''': {{code|./hl2.sh -game hl1mp}}. Use console to create/join lan server.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|[[Half-Life 2]]
+|style="text-align: center;"|{{store link|Steam|220|Link}}
+|Steamworks title. In Cmd/Terminal run: '''Windows''': {{code|hl2.exe}} '''Linux''': {{code|./hl2.sh}}.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|-
+|[[Half-Life 2: Episode One]]
+|style="text-align: center;"|{{store link|Steam|380|Link}}
+|Steamworks title. In Cmd/Terminal run: '''Windows''': {{code|hl2.exe -game episodic}} '''Linux''': <code>./hl2.sh -game episodic</code>.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|-
+|[[Half-Life 2: Episode Two]]
+|style="text-align: center;"|{{store link|Steam|420|Link}}
+|Steamworks title. In Cmd/Terminal run: '''Windows''': {{code|hl2.exe -game ep2}} '''Linux''': {{code|./hl2.sh -game ep2}}.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|-
+|[[Half-Life 2: Lost Coast]]
+|style="text-align: center;"|{{store link|Steam|340|Link}}
+|Steamworks title. In Cmd/Terminal run: '''Windows''': {{code|hl2.exe -game lostcoast}} '''Linux''': {{code|./hl2.sh -game lostcoast}}.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|-
+|[[Portal]]
+|style="text-align: center;"|{{store link|Steam|400|Link}}
+|Steamworks title. In Cmd/Terminal run: '''Windows''': {{code|hl2.exe -game portal}}  '''Linux''': {{code|./hl2.sh -game portal}}.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|}
+
+===XSEED===
+{|class="wikitable" style="width: 100%"
+|-
+! scope="col" style="width:22%" | Name
+! scope="col" style="width:6%;min-width:84px" | Store Page
+! scope="col" style="width:63%" | Notes
+! scope="col" style="width:3%;min-width:40px" | Win
+! scope="col" style="width:3%;min-width:40px" | OS X
+! scope="col" style="width:3%;min-width:40px" | Linux
+|-
+|[[The Legend of Heroes: Trails in the Sky]]
+|style="text-align: center;"|{{store link|Steam|251150|Link}}
+|Steamworks title. DRM was removed in a patch.<ref name="XSEED dev Twitter">https://twitter.com/SaraJLeen/status/894734478823702528</ref>
+|style="text-align: center;"|✔
+|style="text-align: center;"|❌
+|style="text-align: center;"|❌
+|-
+|[[The Legend of Heroes: Trails in the Sky SC]]
+|style="text-align: center;"|{{store link|Steam|251290|Link}}
+|Steamworks title. DRM was removed in a patch.<ref name="XSEED dev Twitter"/>
+|style="text-align: center;"|✔
+|style="text-align: center;"|❌
+|style="text-align: center;"|❌
+|-
+|[[The Legend of Heroes: Trails in the Sky the 3rd]]
+|style="text-align: center;"|{{store link|Steam|436670|Link}}
+|Steamworks title. DRM was removed in a patch.<ref name="XSEED dev Twitter"/>
+|style="text-align: center;"|✔
+|style="text-align: center;"|❌
+|style="text-align: center;"|❌
+|-
+|[[The Legend of Heroes: Trails of Cold Steel]]
+|style="text-align: center;"|{{store link|Steam|538680|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|❌
+|style="text-align: center;"|❌
+|-
+|}
+
+==Miscellaneous==
+===Indie===
+{{ii}} Independent video games (commonly referred to as indie games) are made by individuals or small teams generally without video game publisher financial support. For the simplicity of this article, games published by those outside of the indie studio itself are also included in this list.
+{{ii}} For independent games using Flash & AIR see [[#Flash & AIR|the Flash & AIR section]].
+
+{|class="wikitable" style="width: 100%"
+|-
+! scope="col" style="width:22%" | Name
+! scope="col" style="width:6%;min-width:84px" | Store Page
+! scope="col" style="width:63%" | Notes
+! scope="col" style="width:3%;min-width:40px" | Win
+! scope="col" style="width:3%;min-width:40px" | OS X
+! scope="col" style="width:3%;min-width:40px" | Linux
+|-
+|[[100% Orange Juice!]]
+|style="text-align: center;"|{{store link|Steam|282800|Link}}
+|Steamworks title. Requires its {{file|steam_api.dll}} file in the installation folder to run the game but it is playable without Steam running. Steam Achievements, online lobbies, leaderboards, DLCs, and other Steam-related features cannot be accessed without a Steam log-in, but plays fine otherwise.
+|style="text-align: center;"|✔
+|-
+|[[140]]
+|style="text-align: center;"|{{store link|Steam|242820|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[200% Mixed Juice!]]
+|style="text-align: center;"|{{store link|Steam|335190|Link}}
+|Steamworks title. Requires its {{file|steam_api.dll}} file in the installation folder to run the game but it is playable with Steam running. Cannot access online multiplayer and Steam Achievements are disabled, but the game plays fine otherwise.
+|style="text-align: center;"|✔
+|-
+|[[10,000,000]]
+|style="text-align: center;"|{{store link|Steam|227580|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|[[A.R.E.S.: Extinction Agenda]]
+|style="text-align: center;"|{{store link|Steam|92300|Link}}
+|The game will give a warning message about Steam API not being initialized properly when launching the game directly from its executable, but it will continue to play afterwards. Berserker Suit DLC however cannot be accessed without a Steam log-in.
+|style="text-align: center;"|✔
+|-
+|[[A.R.E.S.: Extinction Agenda EX]]
+|style="text-align: center;"|{{store link|Steam|315340|Link}}
+|Requires its Steam-related .dll files in the installation folder to run the game. The game will use the local save file instead of the one stored on Steam Cloud. The Apollo drone for owners of the original [[A.R.E.S.: Extinction Agenda]] cannot be accessed without a Steam log-in.
+|style="text-align: center;"|✔
+|-
+|[[AaaaaAAaaaAAAaaAAAAaAAAAA!!! for the Awesome]]
+|style="text-align: center;"|{{store link|Steam|15560|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Acceleration of SUGURI 2]]
+|style="text-align: center;"|{{store link|Steam|390710|Link}}
+|Steamworks title. Requires its {{file|steam_api.dll}} file in the installation folder to run the game but it is playable with Steam running. Cannot access online lobbies and Steam Achievements are disabled, but the game plays fine otherwise.
+|style="text-align: center;"|✔
+|-
+|[[Adventures of Shuggy]]
+|style="text-align: center;"|{{store link|Steam|211440|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|-
+|[[Air Control]]
+|style="text-align: center;"|{{store link|Steam|295810|Link}}
+|
+|style="text-align: center;"|✔
+|-
+|[[Alarameth TD]]
+|style="text-align: center;"|{{store link|Steam|377280|Link}}
+|Steamworks title. If copying to another offline machine match the correct architecture (32-bit/64-bit). In-game achievements offer to sync to Steam achievements if/when connected.
+|style="text-align: center;"|✔
+|style="text-align: center;"|✔
+|style="text-align: center;"|✔
+|-
+|[[All Our Asias]]
+|style="text-align: center;"|{{store link|Steam|698050|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Ambre - a heartbreaking kinetic novel]]
+|style="text-align: center;"|{{store link|Steam|623840|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Amnesia: The Dark Descent]]
+|style="text-align: center;"|{{store link|Steam|57300|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|[[Analogue: A Hate Story]]
+|style="text-align: center;"|{{store link|Steam|209370|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Animal Lover]]
+|style="text-align: center;"|{{store link|Steam|542200|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Anna - Extended Edition]]
+|style="text-align: center;"|{{store link|Steam|217690|Link}}
+|Steamworks title. Windows version requires both Steam & Kalypso account login.
+|style="text-align: center;"|❌
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|[[Antichamber]]
+|style="text-align: center;"|{{store link|Steam|219890|Link}}
+|
+|style="text-align: center;"|✔
+|style="text-align: center;"|✔
+|style="text-align: center;"|✔
+|-
+|[[Aozora Meikyuu]]
+|style="text-align: center;"|{{store link|Steam|440540|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Ara Fell]]
+|style="text-align: center;"|{{store link|Steam|427980|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Assault Android Cactus]]
+|style="text-align: center;"|{{store link|Steam|250110|Link}}
+|Steamworks title. Cannot access the online Daily Drive (offline version will be used) or leaderboards without a Steam log-in, but plays fine otherwise.
+|style="text-align: center;"|✔
+|style="text-align: center;"|✔
+|style="text-align: center;"|✔
+|-
+|[[Avadon: The Black Fortress]]
+|style="text-align: center;"|{{store link|Steam|112100|Link}}
+|Steamworks title.
+|style="text-align: center;"|❌
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|[[Baba Is You]]
+|style="text-align: center;"|{{store link|Steam|736260|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|✔
+|style="text-align: center;"|✔
+|-
+|[[BallisticNG]]
+|style="text-align: center;"|{{store link|Steam|473770|Link}}
+|Steamworks title. Steamworks-related features such as Steam Achievements and Leaderboards will be disabled without a Steam log-in, but plays fine otherwise.<ref>{{Refurl|url=https://steamcommunity.com/games/473770/announcements/detail/1439318968088458913|title=BallisticNG 0.9 is now out and the game will soon be transitioning to paid, read for details - Steam Announcements|date=2020-07-11|snippet=BallisticNG is going to be completely DRM free, it will continue to function as it does now where the game does not require Steam to be running and will only disable Steamworks features when no instance of Steam is found - features such as the workshop, leaderboards, achievements and in the future, online multiplayer.}}</ref> Steam Workshop items can also be played without Steam by installing them from the Workshop and then importing the files to the game's respective mod folders.
+|style="text-align: center;"|✔
+|style="text-align: center;"|✔
+|style="text-align: center;"|✔
+|-
+
+|[[Barony]]
+|style="text-align: center;"|{{store link|Steam|371970|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|✔
+|style="text-align: center;"|✔
+|-
+|[[Bastion]]
+|style="text-align: center;"|{{store link|Steam|107100|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|[[BeamNG Drive|BeamNG.drive]]
+|style="text-align: center;"|{{store link|Steam|284160|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|-
+|[[Beholder]]
+|style="text-align: center;"|{{store link|Steam|475550|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Between Me and The Night]]
+|style="text-align: center;"|{{store link|Steam|285070|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|-
+|[[A Bewitching Revolution]]
+|style="text-align: center;"|{{store link|Steam|968500|Link}}
+|
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Bit Blaster XL]]
+|style="text-align: center;"|{{store link|Steam|433950|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|[[Black Ice]]
+|style="text-align: center;"|{{store link|Steam|311800|Link}}
+|Steamworks title - will work when Steam is completely off
+|style="text-align: center;"|✔
+|style="text-align: center;"|✔
+|style="text-align: center;"|✔
+|-
+|[[Bleed]]
+|style="text-align: center;"|{{store link|Steam|314710|Link}}
+|Steamworks title. Its {{file|steam_api.dll}} and {{file|SteamWrapper.dll}} files in its installation folder are required, but can be played without Steam.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|[[Bleed 2]]
+|style="text-align: center;"|{{store link|Steam|396350|Link}}
+|Steamworks title. Its {{file|CSteamWrapper.dll}}, {{file|steam_api.dll}}, and {{file|Steamworks.NET.dll}} files in its installation folder are required, but can be played without Steam.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Blind Men]]
+|style="text-align: center;"|{{store link|Steam|657290|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Bloodstained: Ritual of the Night]]
+|style="text-align: center;"|{{store link|Steam|692850|Link}}
+|Became DRM-free as of July 2, 2020 (v1.15 Update).
+|style="text-align: center;"|✔
+|-
+|[[Breath of Death VII: The Beginning]]
+|style="text-align: center;"|{{store link|Steam|107300|Link}}
+|
+|style="text-align: center;"|✔
+|-
+|[[Bunny Must Die! Chelsea and the 7 Devils]]
+|style="text-align: center;"|{{store link|Steam|250660|Link}}
+|Can be played directly from its executable.
+|style="text-align: center;"|✔
+|-
+|[[Card City Nights]]
+|style="text-align: center;"|{{store link|Steam|271820|Link}}
+|Steamworks title.
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|[[The Cat Lady]]
+|style="text-align: center;"|{{store link|Steam|253110|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|-
+|[[The Citadel]]
+|style="text-align: center;"|{{store link|Steam|1378290|Link}}
+|
+|style="text-align: center;"|✔
+|-
+|[[Cogs]]
+|style="text-align: center;"|{{store link|Steam|26500|Link}}
+|Steamworks title. On Linux, requires 32-bit version of SDL installed or copied to the installation folder.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|[[The Coin Game]]
+|style="text-align: center;"|{{store link|Steam|598980|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|-
+|[[Commando Jack]]
+|style="text-align: center;"|{{store link|Steam|299260|Link}}
+|
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|-
+|[[Cook, Serve, Delicious!]]
+|style="text-align: center;"|{{store link|Steam|247020|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Cortex Command]]
+|style="text-align: center;"|{{store link|Steam|209670|Link}}
+|Steamworks title. Requires its {{file|steam_api.dll}} file in the installation folder to run the game.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|-
+|[[CrossCode]]
+|style="text-align: center;"|{{store link|Steam|368340|Link}}
+|
+|style="text-align: center;"|✔
+|style="text-align: center;"|✔
+|style="text-align: center;"|✔
+|-
+|[[Cthulhu Saves the World]]
+|style="text-align: center;"|{{store link|Steam|107310|Link}}
+|
+|style="text-align: center;"|✔
+|-
+|[[Cuphead]]
+|style="text-align: center;"|{{store link|Steam|268910|Link}}
+|Steamworks Title. Steam DRM check is only on first launch, the game can be run in DRM-free mode afterwards by launching it from the {{file|Cuphead.exe}} executable.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|-
+|[[Darconika: The Cube of Soul]]
+|style="text-align: center;"|{{store link|Steam|490940|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Darkest Dungeon]]
+|style="text-align: center;"|{{store link|Steam|262060|Link}}
+|Steamworks title. For Windows it has a folder in its folder called "_windowsnosteam" and run it with {{file|Darkest.exe}}. It uses a different save than the Steam launcher.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Dashy Square]]
+|style="text-align:center;"|{{store link|Steam|461230|Link}}
+|
+|style="text-align: center;"|✔
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|-
+|[[Date Warp]]
+|style="text-align:center;"|{{store link|Steam|301380|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Deer Man]]
+|style="text-align:center;"|{{store link|Steam|459940|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Diaries of a Spaceport Janitor]]
+|style="text-align: center;"|{{store link|Steam|436500|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|-
+|[[Dino Run DX]]
+|style="text-align: center;"|{{store link|Steam|248330|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|-
+|[[Divine Slice of Life]]
+|style="text-align: center;"|{{store link|Steam|348540|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Doki Doki Literature Club!]]
+|style="text-align: center;"|{{store link|Steam|698780|Link}}
+|Run directly from executable.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Downfall]]
+|style="text-align: center;"|{{store link|Steam|364390|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|-
+|[[Dungeon Defenders]]
+|style="text-align: center;"|{{store link|Steam|65800|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Dungeons of Dredmor]]
+|style="text-align: center;"|{{store link|Steam|98800|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|[[Dusk]]
+|style="text-align: center;"|{{store link|Steam|519860|Link}}
+|Steamworks title.
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|[[Dust: An Elysian Tail]]
+|style="text-align: center;"|{{store link|Steam|236090|Link}}
+|Steamworks title. Windows version, however, uses Steam DRM.
+|style="text-align: center;"|❌
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|[[Delver]]
+|style="text-align: center;"|{{store link|Steam|249630|Link}}
+|
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Echo Tokyo: Intro]]
+|style="text-align: center;"|{{store link|Steam|345700|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Emily is Away Too]]
+|style="text-align: center;"|{{store link|Steam|523780|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Escape Goat 2]]
+|style="text-align: center;"|{{store link|Steam|255340|Link}}
+|Steamworks title.
+|style="text-align: center;"|❌
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|[[eXceed - Gun Bullet Children]]
+|style="text-align: center;"|{{store link|Steam|207370|Link}}
+|
+|style="text-align: center;"|✔
+|-
+|[[eXceed 2nd - Vampire REX]]
+|style="text-align: center;"|{{store link|Steam|207380|Link}}
+|
+|style="text-align: center;"|✔
+|-
+|[[eXceed 3rd - Jade Penetrate Black Package]]
+|style="text-align: center;"|{{store link|Steam|207400|Link}}
+|
+|style="text-align: center;"|✔
+|-
+|[[Faerie Solitaire]]
+|style="text-align: center;"|{{store link|Steam|38600|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|-
+|[[Fantasy Versus]]
+|style="text-align: center;"|{{store link|Steam|787400|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|-
+|[[FarSky]]
+|style="text-align: center;"|{{store link|Steam|286340|Link}}
+|
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Fault - Milestone One]]
+|style="text-align: center;"|{{store link|Steam|286260|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Fault - Milestone Two]]
+|style="text-align: center;"|{{store link|Steam|344770|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|-
+|[[Fausts Alptraum]]
+|style="text-align: center;"|{{store link|Steam|574740|Link}}
+|
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Fez]]
+|style="text-align: center;"|{{store link|Steam|224760|Link}}
+|Steamworks title. On Windows, run <code>FEZ_LaunchOption.exe</code> to disable Steamworks so you can use DRM-free version.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|[[Finding Light]]
+|style="text-align: center;"|{{store link|Steam|894310|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|-
+|[[Floating Point]]
+|style="text-align: center;"|{{store link|Steam|302380|Link}}
+|
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Flying Red Barrel: The Diary of a Little Aviator]]
+|style="text-align: center;"|{{store link|Steam|1036370|Link}}
+|Steamworks title. Requires its {{file|steam_api.dll}} file in the installation folder to run the game but it is playable with Steam running. Steam Achievements are disabled, but the game plays fine otherwise.
+|style="text-align: center;"|✔
+|-
+|[[A Foretold Affair]]
+|style="text-align: center;"|{{store link|Steam|586670|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[The Free Ones]]
+|style="text-align: center;"|{{store link|Steam|670350|Link}}
+|
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[FTL: Faster Than Light]]
+|style="text-align: center;"|{{store link|Steam|212680|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|[[Game Tycoon 1.5]]
+|style="text-align: center;"|{{store link|Steam|273770|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|-
+|[[Garden Paws]]
+|style="text-align: center;"|{{store link|Steam|840010|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|-
+|[[Gateways]]
+|style="text-align: center;"|{{store link|Steam|216290|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|[[Goat Simulator]]
+|style="text-align: center;"|{{store link|Steam|265930|Link}}
+|Steamworks title. Might not save games without Steam.
+|style="text-align: center;"|✔
+|style="text-align: center;"|✔
+|style="text-align: center;"|✔
+|-
+|[[Gratuitous Tank Battles]]
+|style="text-align: center;"|{{store link|Steam|205530|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|-
+|[[Gratuitous Space Battles]]
+|style="text-align: center;"|{{store link|Steam|41800|Link}}
+|Steamworks title. Linux dependencies are easiest solved with "run.sh" from steam-runtime (not bound to Steam).
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|[[Headlander]]
+|style="text-align: center;"|{{store link|Steam|340000|Link}}
+|
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Heart and Seoul]]
+|style="text-align: center;"|{{store link|Steam|546490|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Heart&Slash]]
+|style="text-align: center;"|{{store link|Steam|326840|Link}}
+|
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Hearthlands]]
+|style="text-align: center;"|{{store link|Steam|336300|Link}}
+|Steamworks title. Linux: Run {{file|hearthlands.sh}}. Must have Java installed, because it can't default to Steam-provided JRE.
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|[[Highschool Possession]]
+|style="text-align: center;"|{{store link|Steam|408770|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Highway Blossoms]]
+|style="text-align: center;"|{{store link|Steam|451760|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Hiveswap Friendsim]]
+|style="text-align: center;"|{{store link|Steam|833040|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|-
+|[[The House in Fata Morgana]]
+|style="text-align: center;"|{{store link|Steam|303310|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|-
+|[[HuniePop]]
+|style="text-align: center;"|{{store link|Steam|339800|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|-
+|[[Hustle Cat]]
+|style="text-align: center;"|{{store link|Steam|453340|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|-
+|[[I Am the Hero]]
+|style="text-align: center;"|{{store link|Steam|498500|Link}}
+|
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|[[Infinity Runner]]
+|style="text-align: center;"|{{store link|Steam|279920|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Ishmael]]
+|style="text-align: center;"|{{store link|Steam|981310|Link}}
+|
+|style="text-align: center;"|✔
+|-
+|[[Ittle Dew]]
+|style="text-align: center;"|{{store link|Steam|241320|Link}}
+|Steamworks title.
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|[[Jamestown: Legend of the Lost Colony]]
+|style="text-align: center;"|{{store link|Steam|94200|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|-
+|[[Jamestown+]]
+|style="text-align: center;"|{{store link|Steam|377950|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|-
+|[[Jump Jet Rex]]
+|style="text-align: center;"|{{store link|Steam|329460|Link}}
+|
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Killing Floor]]
+|style="text-align: center;"|{{store link|Steam|1250|Link}}
+|Steamworks title. Offline only.
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|[[A Kiss for the Petals - Remembering How We Met]]
+|style="text-align: center;"|{{store link|Steam|397270|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Lake of Voices]]
+|style="text-align: center;"|{{store link|Steam|782340|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|-
+|[[Last Day of June]]
+|style="text-align: center;"|{{store link|Steam|635320|Link}}
+|
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Last Days of Spring]]
+|style="text-align: center;"|{{store link|Steam|407680|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[The Last Dogma]]
+|style="text-align: center;"|{{store link|Steam|374510|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|[[Lionessy Story]]
+|style="text-align: center;"|{{store link|Steam|448690|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|
+|style="text-align: center;"|?
+|-
+|-
+|[[Lord of the Seal]]
+|style="text-align: center;"|{{store link|Steam|522610|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Loren The Amazon Princess]]
+|style="text-align: center;"|{{store link|Steam|257970|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Long Live the Queen]]
+|style="text-align: center;"|{{store link|Steam|251990|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Love in the Glen]]
+|style="text-align: center;"|{{store link|Steam|459130|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Lynne]]
+|style="text-align: center;"|{{store link|Steam|885640|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[M1: A Death in the Desert]]
+|style="text-align: center;"|{{store link|Steam|675530|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Main Character Simulator]]
+|style="text-align: center;"|{{store link|Steam|930710|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Mainland]]
+|style="text-align: center;"|{{store link|Steam|366800|Link}}
+|
+|style="text-align: center;"|✔
+|-
+|[[The Maker's Eden]]
+|style="text-align: center;"|{{store link|Steam|313360|Link}}
+|
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[The Mansion]]
+|style="text-align: center;"|{{store link|Steam|893360|Link}}
+|
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Meanders]]
+|style="text-align: center;"|{{store link|Steam|734920|Link}}
+|
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Megabyte Punch]]
+|style="text-align: center;"|{{store link|Steam|248550|Link}}
+|Steamworks title.
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|[[Mekazoo]]
+|style="text-align: center;"|{{store link|Steam|390330|Link}}
+|
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Meltdown]]
+|style="text-align: center;"|{{store link|Steam|268220|Link}}
+|Steamworks title.
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|[[Mercenary Kings]]
+|style="text-align: center;"|{{store link|Steam|218820|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|✔
+|style="text-align: center;"|✔
+|-
+|[[Miaou Moon]]
+|style="text-align: center;"|{{store link|Steam|513580|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Mighty No. 9]]
+|style="text-align: center;"|{{store link|Steam|314710|Link}}
+|Steamworks title. Steam Achievements, online multiplayer, and leaderboards will not work without a Steam log-in, but plays fine otherwise.
+|style="text-align: center;"|✔
+|style="text-align: center;"|✔
+|style="text-align: center;"|✔
+|-
+|[[Mini Metro]]
+|style="text-align: center;"|{{store link|Steam|287980|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Mini Ninjas]]
+|style="text-align: center;"|{{store link|Steam|35000|Link}}
+|Saves do not carry over
+|style="text-align: center;"|✔
+|-
+|[[Momodora III]]
+|style="text-align: center;"|{{store link|Steam|302790|Link}}
+|Its {{file|steam.dll}} and {{file|steam_api.dll}} files are required to run the game, but is playable without Steam running.
+|style="text-align: center;"|✔
+|-
+|[[Momodora: Reverie Under the Moonlight]]
+|style="text-align: center;"|{{store link|Steam|428550|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|-
+|[[Monaco: What's Yours Is Mine]]
+|style="text-align: center;"|{{store link|Steam|113020|Link}}
+|Steamworks title.
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|[[Mr. Shifty]]
+|style="text-align: center;"|{{store link|Steam|489140|Link}}
+|
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[My Lady]]
+|style="text-align: center;"|{{store link|Steam|457530|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Mysterium]]
+|style="text-align: center;"|{{store link|Steam|556180|Link}}
+|
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Neon Drive]]
+|style="text-align: center;"|{{store link|Steam|433910|Link}}
+|
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|[[Nidhogg]]
+|style="text-align: center;"|{{store link|Steam|94400|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|-
+|[[Noitu Love 2: Devolution]]
+|style="text-align: center;"|{{store link|Steam|207530|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|-
+|[[Non-Linear Text Quests]]
+|style="text-align: center;"|{{store link|Steam|531630|Link}}
+|Steamworks title. Attempting to open the game without Steam open may bring up an error message and start the game with a default theme instead of the custom theme. This can be fixed by clicking "Back" on the story list and going to the main menu.
+|style="text-align: center;"|✔
+|style="text-align: center;"|
+|style="text-align: center;"|?
+|-
+|[[Obduction]]
+|style="text-align: center;"|{{store link|Steam|306760|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|-
+|[[Oceanhorn: Monster of Uncharted Seas]]
+|style="text-align: center;"|{{store link|Steam|339200|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|-
+|[[Odallus: The Dark Call]]
+|style="text-align: center;"|{{store link|Steam|319480|Link}}
+|
+|style="text-align: center;"|✔
+|-
+|[[Oddworld: Munch's Oddysee]]
+|style="text-align: center;"|{{store link|Steam|15740|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|-
+|[[Oddworld: Stranger's Wrath HD]]
+|style="text-align: center;"|{{store link|Steam|15750|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|-
+|[[Offworld Trading Company]]
+|style="text-align: center;"|{{store link|Steam|271240|Link}}
+|
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Once on a Windswept Night]]
+|style="text-align: center;"|{{store link|Steam|585880|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[One Finger Death Punch]]
+|style="text-align: center;"|{{store link|Steam|264200|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|-
+|[[Ori and the Blind Forest: Definitive Edition]]
+|style="text-align: center;"|{{store link|Steam|387290|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|-
+|[[Ori and the Will of the Wisps]]
+|style="text-align: center;"|{{store link|Steam|1057090|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|-
+|[[Orborun]]
+|style="text-align: center;"|{{store link|Steam|308580|Link}}
+|DRM-free as of the "Halloween Update".<ref>{{Refcheck|user=AmethystViper|date=2020-06-09|comment=Downgrading the game before the "Halloween Update" prevented the game from launching the game unless Steam was running.}}</ref>
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Papers, Please]]
+|style="text-align: center;"|{{store link|Steam|239030|Link}}
+|Steamworks title.
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|[[Party Hard]]
+|style="text-align: center;"|{{store link|Steam|356570|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Penny Arcade's On the Rain-Slick Precipice of Darkness 3]]
+|style="text-align: center;"|{{store link|Steam|213030|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|-
+|[[Penny Arcade's On the Rain-Slick Precipice of Darkness 4]]
+|style="text-align: center;"|{{store link|Steam|237570|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|-
+|[[Pillars of Eternity]]
+|style="text-align: center;"|{{store link|Steam|291650|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|-
+|[[Pillars of Eternity II: Deadfire]]
+|style="text-align: center;"|{{store link|Steam|560130|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|-
+|[[Project Zomboid]]
+|style="text-align: center;"|{{store link|Steam|108600|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Proteus]]
+|style="text-align: center;"|{{store link|Steam|219680|Link}}
+|
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|[[QP Shooting - Dangerous!!]]
+|style="text-align: center;"|{{store link|Steam|316600|Link}}
+|Steamworks title. Requires its {{file|steam_api.dll}} file in the installation folder but it is playable without Steam running. Steam Achievements will be disabled, but plays fine otherwise.
+|style="text-align: center;"|✔
+|-
+|[[Racer 8]]
+|style="text-align: center;"|{{store link|Steam|292380|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|-
+|[[Receiver]]
+|style="text-align: center;"|{{store link|Steam|234190|Link}}
+|
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Reflections ~Dreams and Reality~]]
+|style="text-align: center;"|{{store link|Steam|1035700|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Return.]]
+|style="text-align: center;"|{{store link|Steam|906390|Link}}
+|
+|style="text-align: center;"|✔
+|-
+|[[River City Ransom: Underground]]
+|style="text-align: center;"|{{store link|Steam|422810|Link}}
+|
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|[[Runner3]]
+|style="text-align: center;"|{{store link|Steam|516130|Link}}
+|
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[The Sad Story of Emmeline Burns]]
+|style="text-align: center;"|{{store link|Steam|429940|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Secret Little Haven]]
+|style="text-align: center;"|{{store link|Steam|827290|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|-
+|[[Serial Cleaner]]
+|style="text-align: center;"|{{store link|Steam|522210|Link}}
+|Steamworks title.
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|[[Shantae: Risky's Revenge - Director's Cut]]
+|style="text-align: center;"|{{store link|Steam|277890|Link}}
+|Its {{file|steam_api.dll}} and {{file|steam_api64.dll}} in the installation folder are required to run the game, but is playable without Steam running. The game will use the local save file instead of the one stored on Steam Cloud.
+|style="text-align: center;"|✔
+|-
+|[[Shelter]]
+|style="text-align: center;"|{{store link|Steam|244710|Link}}
+|
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|-
+|[[Shipwreck]]
+|style="text-align: center;"|{{store link|Steam|342490|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|[[Shovel Knight]]
+|style="text-align: center;"|{{store link|Steam|250760|Link}}
+|Steamworks title. Its {{file|steam_api.dll}} in the installation folder is required to run the game, and a message will appear to warn players about unavailable online features when launching the game without Steam, but is fully playable otherwise. The game will use the local save file instead of the one stored on Steam Cloud.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Simply Chess]]
+|style="text-align: center;"|{{store link|Steam|312280|Link}}
+|Steamworks title. Offline only.
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|[[Six Days of Snow]]
+|style="text-align: center;"|{{store link|Steam|754810|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Sky Rogue]]
+|style="text-align: center;"|{{store link|Steam|381020|Link}}
+|
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|
+|-
+|[[Slain: Back from Hell]]
+|style="text-align: center;"|{{store link|Steam|369070|Link}}
+|
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|[[Slime Rancher]]
+|style="text-align: center;"|{{store link|Steam|433340|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Snuggle Truck]]
+|style="text-align: center;"|{{store link|Steam|111100|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|[[SOL: Exodus]]
+|style="text-align: center;"|{{store link|Steam|200410|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|-
+|[[Sol Survivor]]
+|style="text-align: center;"|{{store link|Steam|45000|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|-
+|[[Soul Saber 2]]
+|style="text-align: center;"|{{store link|Steam|581230|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|-
+|[[Spooky's Jump Scare Mansion]]
+|style="text-align: center;"|{{store link|Steam|356670|Link}}
+|
+|style="text-align: center;"|✔
+|-
+|[[Sora]]
+|style="text-align: center;"|{{store link|Steam|390730|Link}}
+|Steamworks title. Requires its {{file|steam_api.dll}} file in the installation folder but is playable without Steam running. Steam Achievements will be disabled, but plays fine otherwise.
+|style="text-align: center;"|✔
+|-
+|[[Sound of Drop - fall into poison -]]
+|style="text-align: center;"|{{store link|Steam|383460|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Stardew Valley]]
+|style="text-align: center;"|{{store link|Steam|413150|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[SteamWorld Heist]]
+|style="text-align: center;"|{{store link|Steam|322190|Link}}
+|
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Strawberry Vinegar]]
+|style="text-align: center;"|{{store link|Steam|407340|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Subnautica]]
+|style="text-align: center;"|{{store link|Steam|264710|Link}}
+|
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Summer Nightmare]]
+|style="text-align:center;"|{{store link|Steam|576860|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Sunrider Academy]]
+|style="text-align: center;"|{{store link|Steam|340730|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Sunrider: Liberation Day]]
+|style="text-align: center;"|{{store link|Steam|358750|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Sunrider: Mask of Arcadius]]
+|style="text-align: center;"|{{store link|Steam|313730|Link}}
+|
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Super Crate Box]]
+|style="text-align: center;"|{{store link|Steam|212800|Link}}
+|
+|style="text-align: center;"|✔
+|-
+|[[Superhot]]
+|style="text-align: center;"|{{store link|Steam|322500|Link}}
+|
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|-
+|[[Super Meat Boy]]
+|style="text-align: center;"|{{store link|Steam|40800|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|[[Supraland]]
+|style="text-align: center;"|{{store link|Steam|358750|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|[[A Story About My Uncle]]
+|style="text-align: center;"|{{store link|Steam|278360|Link}}
+|
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Streets of Fury EX]]
+|style="text-align: center;"|{{store link|Steam|350910|Link}}
+|DRM-free when Steam is not installed or by creating a {{file|steam_appid.txt}} file in the game's installation folder containing its Steam App ID number {{code|350910}}.
+|style="text-align: center;"|✔
+|-
+|[[Strike Suit Zero]]
+|style="text-align: center;"|{{store link|Steam|209540|Link}}
+|Steamworks title. Warns about Steam absence but should play without issues.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|[[Super Laser Racer]]
+|style="text-align: center;"|{{store link|Steam|44100|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|-
+|[[Sword Daughter]]
+|style="text-align: center;"|{{store link|Steam|342450|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Tallowmere]]
+|style="text-align: center;"|{{store link|Steam|340520|Link}}
+|Steamworks title. Warns about Steam absence (no achievements nor leaderboard submissions) but plays fine otherwise.
+|style="text-align: center;"|✔
+|style="text-align: center;"|✔
+|style="text-align: center;"|✔
+|-
+|[[This Book Is A Dungeon]]
+|style="text-align: center;"|{{store link|Steam|404690|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|-
+|[[Thomas Was Alone]]
+|style="text-align: center;"|{{store link|Steam|220780|Link}}
+|Steamworks title.
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|[[Time Gentlemen, Please!]] and [[Ben There, Dan That!]] Special Edition Double Pack
+|style="text-align: center;"|{{store link|Steam|37400|Link}}
+|
+|style="text-align: center;"|✔
+|-
+|[[Timespinner]]
+|style="text-align: center;"|{{store link|Steam|368620|Link}}
+|DRM-free when Steam is not installed or by creating a {{file|steam_appid.txt}} file containing its Steam ID number {{code|368620}} in the game's installation folder.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[To Be or Not To Be]]
+|style="text-align: center;"|{{store link|Steam|324710|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Tokyo 42]]
+|style="text-align: center;"|{{store link|Steam|490450|Link}}
+|
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Transistor]]
+|style="text-align: center;"|{{store link|Steam|237930|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|-
+|[[Trapped Dead]]
+|style="text-align: center;"|{{store link|Steam|46540|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|-
+|[[True Lover's Knot]]
+|style="text-align: center;"|{{store link|Steam|416630|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Underrail]]
+|style="text-align: center;"|{{store link|Steam|250520|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Undertale]]
+|style="text-align: center;"|{{store link|Steam|391540|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|✔
+|style="text-align: center;"|✔
+|-
+|[[Under What?]]
+|style="text-align: center;"|{{store link|Steam|1114260|Link}}
+|
+|style="text-align: center;"|✔
+|-
+|[[Unstoppable Gorg]]
+|style="text-align: center;"|{{store link|Steam|18120|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|-
+|[[Uplink]]
+|style="text-align: center;"|{{store link|Steam|1510|Link}}
+|
+|style="text-align: center;"|❌
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|[[Vanguard Princess]]
+|style="text-align: center;"|{{store link|Steam|262150|Link}}
+|
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Vertex Dispenser]]
+|style="text-align: center;"|{{store link|Steam|102400|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|-
+|[[A Virus Named TOM]]
+|style="text-align: center;"|{{store link|Steam|207650|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|[[VVVVVV]]
+|style="text-align: center;"|{{store link|Steam|70300|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|[[Wayward]]
+|style="text-align: center;"|{{store link|Steam|379210|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|-
+|[[We Know the Devil]]
+|style="text-align: center;"|{{store link|Steam|435300|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|-
+|[[A Wild Catgirl Appears!]]
+|style="text-align:center;"|{{store link|Steam|429580|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Willowbrooke Post]]
+|style="text-align: center;"|{{store link|Steam|938500|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|-
+|[[Windward]]
+|style="text-align:center;"|{{store link|Steam|326410|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Without Within]]
+|style="text-align:center;"|{{store link|Steam|345650|Link}}
+|
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Wizorb]]
+|style="text-align: center;"|{{store link|Steam|207420|Link}}
+|Steamworks title. Save data might not work unless Steam is running.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|-
+|[[Woodle Tree Adventures]]
+|style="text-align:center;"|{{store link|Steam|299460|Link}}
+|Steamworks title. Delete/rename Steam DLLs to prevent Steam being detected and launched.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[You Have to Win the Game]]
+|style="text-align: center;"|{{store link|Steam|286100|Link}}
+|
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|[[Yozora Rhapsody]]
+|style="text-align: center;"|{{store link|Steam|569210|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Yume Nikki]]
+|style="text-align: center;"|{{store link|Steam|650700|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|-
+|}
+
+===Other===
+{{ii}} This list features non-indie, AAA (big publishers) and games outside publishers in separate paragraphs.
+
+{|class="wikitable" style="width: 100%"
+|-
+! scope="col" style="width:22%;" | Name
+! scope="col" style="width:6%;min-width:84px;" | Store Page
+! scope="col" style="width:63%;" | Notes
+! scope="col" style="width:3%;min-width:40px;" | Win
+! scope="col" style="width:3%;min-width:40px;" | OS X
+! scope="col" style="width:3%;min-width:40px;" | Linux
+|-
+|[[Batman: Arkham Asylum Game of the Year Edition]]
+|style="text-align:center;"|{{store link|Steam|35140|Link}}
+|Steamworks title. Can be played without Steam by using the [[Glossary:Command line arguments|command-line argument]] {{code|-nosteam}}. Steam saves however are not compatible with non-Steam mode.<ref name="pedrovay2003">[https://www.gog.com/forum/general_archive/humble_bundle_psa_batman_arkham_asylum_and_scribblenauts_unlimited_are_drmfree Humble Bundle PSA: Batman: Arkham Asylum and Scribblenauts Unlimited are DRM-free, page 1 - Forum - GOG.com]</ref>
+|style="text-align: center;"|✔
+|-
+|[[Bejeweled 3]]
+|style="text-align: center;"|{{store link|Steam|78000|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|-
+|[[Colin McRae Rally (2014)]]
+|style="text-align:center;"|{{store link|Steam|287340|Link}}
+|Steamworks title. Delete/rename Steam DLLs to prevent Steam being detected and launched.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|-
+|[[Déjà Vu II: MacVenture Series]]
+|style="text-align:center;"|{{store link|Steam|343830|Link}}
+|
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|-
+|[[Doom]]
+|style="text-align:center;"|{{store link|Steam|2280|Link}}
+|Packaged with DOSBox v0.71. Bundled with the 2019 Bethesda.net re-release of [[Doom Classic]] which is also DRM-free.
+|style="text-align: center;"|✔
+|-
+|[[Doom II: Hell on Earth]]
+|style="text-align:center;"|{{store link|Steam|2300|Link}}
+|Packaged with DOSBox v0.72. Bundled with the 2019 Bethesda.net re-release of [[Doom II Classic]] which is also DRM-free.
+|style="text-align: center;"|✔
+|-
+|[[Doom 3]]
+|style="text-align:center;"|{{store link|Steam|9050|Link}}
+|Stock executable has Steam DRM check. Download and install the retail [http://www.patches-scrolls.com/doom3.php v1.3.1 patch] in different location from where the Steam version of Doom 3 is installed (e.g. <code>C:\Program Files\Doom 3</code>), then copy the {{file|Doom3.exe}} executable from the retail v1.3.1 patch into the Steam version's installation folder. Back-up your original Steam executable before using the retail version's executable.<ref>{{Refcheck|user=AmethystViper|date=2020-04-26|comment=Performed a clean re-install of Doom 3 and Resurrection of Evil and was prompted to log into Steam. Removing Steam (or renaming steam.exe) did not launch the game either. Using the retail version's v1.3.1 executable however bypassed the Steam requirements.}}</ref>
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Doom 64]]
+|style="text-align:center;"|{{store link|Steam|1148590|Link}}
+|DRM-free when Steam is not installed or by creating a {{file|steam_appid.txt}} file in the game's installation directory containing its Steam ID number {{code|1148590}}. Bethesda.net sign-up can be skipped.
+|style="text-align: center;"|✔
+|-
+|[[DuckTales: Remastered]]
+|style="text-align:center;"|{{store link|Steam|237630|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|-
+|[[Echelon (2001)]]
+|style="text-align:center;"|{{store link|Steam|311080|Link}}
+|
+|style="text-align: center;"|✔
+|-
+|[[Echelon: Wind Warriors]]
+|style="text-align:center;"|{{store link|Steam|311100|Link}}
+|
+|style="text-align: center;"|✔
+|-
+|[[Fable: The Lost Chapters]]
+|style="text-align:center;"|{{store link|Steam|204030|Link}}
+|
+|style="text-align: center;"|✔
+|-
+|[[Final Doom]]
+|style="text-align:center;"|{{store link|Steam|2280|Link}}
+|Packaged with DOSBox v0.72.
+|style="text-align: center;"|✔
+|-
+|[[The Fruit of Grisaia]]
+|style="text-align:center;"|{{store link|Steam|345610|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|-
+|[[Galactic Civilizations|Galactic Civilizations I: Ultimate Edition]]
+|style="text-align:center;"|{{store link|Steam|214150|Link}}
+|
+|style="text-align: center;"|✔
+|-
+|[[Galactic Civilizations II: Dread Lords|Galactic Civilizations II: Ultimate Edition]]
+|style="text-align:center;"|{{store link|Steam|202200|Link}}
+|Base game (Dread Lords [<code>GalCiv2.exe</code>]) and Dark Avatar [<code>GC2DarkAvatar.exe</code>] expansion are DRM-free.
+|style="text-align: center;"|✔
+|-
+|[[Grand Theft Auto: San Andreas]]
+|style="text-align:center;"|{{store link|Steam|12120|Link}}
+|Became DRM-free as the November 7, 2014 patch.<ref>{{Refurl|url=https://web.archive.org/web/20190212175748/http://www.rockstarnexus.com/article/208/San-Andreas-updated-on-Steam-removes-songs-and-reverts-fixes|title=San Andreas updated on Steam (Updated) - Rockstar Nexus (archived)|date=2019-07-20}}</ref>
+|style="text-align: center;"|✔
+|-
+|[[GT Legends]]
+|style="text-align:center;"|{{store link|Steam|44690|Link}}
+|
+|style="text-align: center;"|✔
+|-
+|[[GTR - FIA GT Racing Game]]
+|style="text-align:center;"|{{store link|Steam|44600|Link}}
+|
+|style="text-align: center;"|✔
+|-
+|[[GTR 2 - FIA GT Racing Game]]
+|style="text-align:center;"|{{store link|Steam|8790|Link}}
+|
+|style="text-align: center;"|✔
+|-
+|[[Kingsway]]
+|style="text-align: center;"|{{store link|Steam|588950|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|-
+|[[Killer Is Dead]]
+|style="text-align: center;"|{{store link|Steam|261110|Link}}
+|Steamworks title. Can be played without Steam by using the [[Glossary:Command line arguments|command-line argument]] {{code|-nosteam}}. Online leaderboards however are inaccessible without a Steam log-in, but plays fine otherwise.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|-
+|[[Legendary]]
+|style="text-align:center;"|{{store link|Steam|16730|Link}}
+|SecuROM <code>paul.dll</code> remnant in the installation folder does nothing and the game still works if it is deleted.
+|style="text-align: center;"|✔
+|-
+|[[Mosaics Galore]]
+|style="text-align: center;"|{{store link|Steam|567150|Link}}
+|
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|-
+|Moto Racer Collection
+|style="text-align:center;"|{{store link|Steam|324110|Link}}
+|No Steam check in the launcher or any of the games ([[Moto Racer]], [[Moto Racer 2]], [[Moto Racer 3]], [[Moto Racer 15th Anniversary]]).
+|style="text-align: center;"|✔
+|-
+|-
+|[[Our Darker Purpose]]
+|style="text-align: center;"|{{store link|Steam|262790|Link}}
+|
+|style="text-align: center;"|✔
+|style="text-align: center;"|❌
+|style="text-align: center;"|❌
+|-
+|[[Painkiller Redemption]]
+|style="text-align:center;"|{{store link|Steam|65560|Link}}
+|On Linux the game is probably DRM-Free, but it is heavily built/linked against the Steam-Runtime.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|❌
+|-
+|[[Postal]]
+|style="text-align:center;"|{{store link|Steam|232770|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|✔
+|style="text-align: center;"|✔
+|-
+|[[Postal 2]]
+|style="text-align:center;"|{{store link|Steam|223470|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|✔
+|style="text-align: center;"|✔
+|-
+|[[Postal 2|Postal 2: Paradise Lost]]
+|style="text-align:center;"|{{store link|Steam|360960|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|❌
+|style="text-align: center;"|❌
+|-
+|[[Rise of the Triad]]
+|style="text-align:center;"|{{store link|Steam|217140|Link}}
+|Steamworks title. Run <code>Binaries\Win32\ROTT.exe</code><ref>{{Refurl|url=https://steamcommunity.com/app/217140/discussions/0/846958223070023294/ |title=Rise of the Triad: Lack of DRM confirmed by developer |date=October 05, 2017}}</ref>
+|style="text-align: center;"|✔
+|-
+|[[Saira]]
+|style="text-align:center;"|{{store link|Steam|48900|Link}}
+|
+|style="text-align: center;"|✔
+|-
+|[[Sam & Max Hit the Road]]
+|style="text-align: center;"|{{store link|Steam|429940|Link}}
+|Can be ran through the included [[ScummVM]] executable.
+|style="text-align: center;"|✔
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|-
+|[[Scribblenauts Unlimited]]
+|style="text-align:center;"|{{store link|Steam|218680|Link}}
+|Steamworks title. Warns about Steam absence but plays without issues. Object editor and custom objects are not available when not launched from Steam.<ref name="pedrovay2003"/>
+|style="text-align: center;"|✔
+|-
+|[[Shadow Complex Remastered]]
+|style="text-align: center;"|{{store link|Steam|385560|Link}}
+|Steamworks title. DRM-free when launched directly from its executable. Steam Achievements, cloud saving, and online leaderboards are disabled without a Steam log-in (in-game Achievements are not affected), but plays fine otherwise. Some settings however reset if not launched via Steam.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|-
+|[[Shadowgate: MacVenture Series]]
+|style="text-align:center;"|{{store link|Steam|343800|Link}}
+|
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|-
+|[[Shadowgate (2014)]]
+|style="text-align:center;"|{{store link|Steam|294440|Link}}
+|Steamworks title. Delete/rename <code>steam_api.dll</code> and <code>SteamworksNative.dll</code> to prevent Steam being detected and launched. Bundled retro game installer is also DRM-free.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|[[Sniper Elite]]
+|style="text-align:center;"|{{store link|Steam|3700|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|-
+|[[Space Hack]]
+|style="text-align:center;"|{{store link|Steam|315260|Link}}
+|
+|style="text-align: center;"|✔
+|-
+|[[Sphinx and the Cursed Mummy]]
+|style="text-align:center;"|{{store link|Steam|606710|Link}}
+|
+|style="text-align: center;"|✔
+|style="text-align: center;"|✔
+|style="text-align: center;"|✔
+|-
+|[[SpongeBob SquarePants: Battle for Bikini Bottom - Rehydrated]]
+|style="text-align:center;"|{{store link|Steam|606710|Link}}
+|
+|style="text-align: center;"|✔
+|-
+|[[Star Wars: Battlefront II]]
+|style="text-align: center;"|{{store link|Steam|6060|Link}}
+|
+|style="text-align: center;"|✔
+|-
+|[[Steven Universe: Save the Light]]
+|style="text-align: center;"|{{store link|Steam|821890|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|-
+|[[System Shock: Enhanced Edition]]
+|style="text-align:center;"|{{store link|Steam|238210|Link}}
+|As of the "Source Port" update on September 13, 2018, the Steam version features a new [[Glossary:Command line arguments|command-line argument]], {{code|-no-social}}, to launch the game without Steam running in the background.<ref>{{Refurl|url=https://steamcommunity.com/games/410710/announcements/detail/1711820992898474104|title=Source Port Update #1 is available now! - Steam Community Announcements|date=2019-12-17}}</ref>
+|style="text-align: center;"|✔
+|-
+|[[System Shock 2]]
+|style="text-align:center;"|{{store link|Steam|238210|Link}}
+|Steamworks title. On Linux it should be DRM-Free as well. It may be hard to launch though, since it is using a Wine-wrapper.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|✔
+|-
+|[[Tales of Monkey Island]] Complete Pack
+|style="text-align:center;"|{{store link|Steam|31170|Link}}
+|Only Chapter One.
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|-
+|[[Uninvited: MacVenture Series]]
+|style="text-align:center;"|{{store link|Steam|343810|Link}}
+|
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|-
+|[[The Witcher: Enhanced Edition Director's Cut]]
+|style="text-align:center;"|{{store link|Steam|20900|Link}}
+|It has CEG, but you can use the provided CD key to get the DRM-free backup copy (you get installation files) at [https://www.gog.com/witcher/backup GOG.com].
+|style="text-align: center;"|❌
+|style="text-align: center;"|❌
+|-
+|[[The Witcher 2: Assassins of Kings Enhanced Edition]]
+|style="text-align:center;"|{{store link|Steam|20920|Link}}
+|Steamworks title. It has CEG, but you can use the provided CD key to get the DRM-free backup copy (you get installation files) at [https://www.gog.com/witcher/backup GOG.com].
+|style="text-align: center;"|❌
+|style="text-align: center;"|❌
+|style="text-align: center;"|❌
+|-
+|[[The Witcher 3: Wild Hunt]]
+|style="text-align:center;"|{{store link|Steam|292030|Link}}
+|
+|style="text-align: center;"|✔
+|-
+|[[Worms Pinball]]
+|style="text-align:center;"|{{store link|Steam|70660|Link}}
+|
+|style="text-align: center;"|✔
+|-
+|[[X-Blades]]
+|style="text-align:center;"|{{store link|Steam|7510|Link}}
+|Steamworks title. MacOS X and Linux versions are Wineskin-wrapped ports.<ref>{{Refurl|url=https://steamcommunity.com/games/7510/announcements/detail/244718878347983266|title=Linux and Mac ports available now! - Steam Community :: Group Announcements :: X-Blades|date=June 27, 2017}}</ref>
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|style="text-align: center;"|?
+|-
+|[[Yar's Revenge]]
+|style="text-align:center;"|{{store link|Steam|99120|Link}}
+|Steamworks title. Its {{file|steam_api.dll}} is required to run the game, and online leaderboards and Steam achievements are disabled without a Steam log-in, but the game can be played otherwise.
+|style="text-align: center;"|✔
+|-
+|}
+
+===Flash & AIR===
+{{++}} DRM can't be used on Flash and AIR games.<ref>[http://www.steampowered.com/steamworks/FAQ.php Steamworks - FREQUENTLY ASKED QUESTIONS]</ref>
+{{ii}} Multi-Platform: You may sometimes be able to play these games on any platform supported by Flash. To do this extract the .swf file from the .exe of the Windows version and open it in the Flash Player. A good extraction tool is e.g. [http://www.northcode.com/blog.php/2007/08/02/Extract-SWF-files-from-Flash-Executables exe2swf].
+
+{|class="wikitable" style="width: 100%"
+|-
+! scope="col" style="width:22%;" | Name
+! scope="col" style="width:6%;min-width:84px;" | Store Page
+! scope="col" style="width:63%;" | Notes
+! scope="col" style="width:3%;min-width:40px;" | Win
+! scope="col" style="width:3%;min-width:40px;" | OS X
+! scope="col" style="width:3%;min-width:40px;" | Linux
+|-
+|[[Anodyne]]
+|style="text-align:center;"|{{store link|Steam|234900|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|✔
+|style="text-align: center;"|✔
+|-
+|[[Auditorium]]
+|style="text-align:center;"|{{store link|Steam|205870|Link}}
+|
+|style="text-align: center;"|✔
+|-
+|[[The Basement Collection]]
+|style="text-align:center;"|{{store link|Steam|214790|Link}}
+|
+|style="text-align: center;"|✔
+|style="text-align: center;"|✔
+|-
+|[[The Binding of Isaac]]
+|style="text-align:center;"|{{store link|Steam|113200|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|✔
+|-
+|[[Botanicula]]
+|style="text-align:center;"|{{store link|Steam|207690|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|✔
+|-
+|[[Clicker Heroes]]
+|style="text-align:center;"|{{store link|Steam|363970|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|✔
+|-
+|[[Deep Under the Sky]]
+|style="text-align:center;"|{{store link|Steam|315650|Link}}
+|
+|style="text-align: center;"|✔
+|style="text-align: center;"|✔
+|-
+|[[Defender's Quest: Valley of the Forgotten]]
+|style="text-align:center;"|{{store link|Steam|218410|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|✔
+|style="text-align: center;"|✔
+|-
+|[[Enemy Mind]]
+|style="text-align:center;"|{{store link|Steam|285840|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|-
+|[[Flight Control HD]]
+|style="text-align:center;"|{{store link|Steam|62000|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|✔
+|-
+|[[Intrusion 2]]
+|style="text-align:center;"|{{store link|Steam|214970|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|
+|style="text-align: center;"|✔
+|-
+|[[The Last Door]]
+|style="text-align:center;"|{{store link|Steam|284390|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|✔
+|style="text-align: center;"|✔
+|-
+|[[Lilly Looking Through]]
+|style="text-align:center;"|{{store link|Steam|250030|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|✔
+|-
+|[[Lone Survivor]]
+|style="text-align:center;"|{{store link|Steam|209830|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|✔
+|-
+|[[Lumino City]]
+|style="text-align:center;"|{{store link|Steam|205020|Link}}
+|
+|style="text-align: center;"|✔
+|style="text-align: center;"|✔
+|-
+|[[Machinarium]]
+|style="text-align:center;"|{{store link|Steam|40700|Link}}
+|'''Multi-Platform:''' Use the extracted {{file|00000004.swf}}.
+|style="text-align: center;"|✔
+|style="text-align: center;"|✔
+|-
+|[[McPixel]]
+|style="text-align: center;"|{{store link|Steam|220860|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|✔
+|style="text-align: center;"|
+|-
+|[[Monster Loves You!]]
+|style="text-align:center;"|{{store link|Steam|226740|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|-
+|[[Offspring Fling!]]
+|style="text-align:center;"|{{store link|Steam|211360|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|✔
+|-
+|[[Probability 0]]
+|style="text-align:center;"|{{store link|Steam|258070|Link}}
+|
+|style="text-align: center;"|✔
+|style="text-align: center;"|✔
+|-
+|[[QuestRun]]
+|style="text-align:center;"|{{store link|Steam|286120|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|style="text-align: center;"|✔
+|-
+|[[Retro Game Crunch]]
+|style="text-align:center;"|{{store link|Steam|286120|Link}}
+|
+|style="text-align: center;"|✔
+|style="text-align: center;"|?
+|-
+|[[Samorost 2]]
+|style="text-align:center;"|{{store link|Steam|40720|Link}}
+|'''Multi-Platform:''' Use the extracted "00000003.swf".
+|style="text-align: center;"|✔
+|-
+|[[Soundodger+]]
+|style="text-align:center;"|{{store link|Steam|247140|Link}}
+|Steamworks title.
+|style="text-align: center;"|✔
+|-
+|[[Trauma]]
+|style="text-align:center;"|{{store link|Steam|98100|Link}}
+|
+|style="text-align: center;"|✔
+|style="text-align: center;"|✔
+|-
+|[[Windosill]]
+|style="text-align: center;"|{{store link|Steam|37600|Link}}
+|'''Multi-Platform:''' Use the extracted "00000004.swf".
+|style="text-align: center;"|✔
+|style="text-align: center;"|✔
+|style="text-align: center;"|✔
+|}
+
+{{References}}
+
+[[Category:Lists]]
+[[Category:Projects]]

@@ -1,0 +1,400 @@
+NAME: 37600Link,STEAMID: 37600
+NAME: Windosill,"STEAMID: style=""text-align:center;""98100"
+NAME: Trauma,"STEAMID: style=""text-align:center;""247140",NOTES: Steamworks title.
+NAME: Soundodger+,"STEAMID: style=""text-align:center;""40720"
+NAME: Samorost 2,"STEAMID: style=""text-align:center;""286120"
+NAME: Retro Game Crunch,"STEAMID: style=""text-align:center;""286120",NOTES: Steamworks title.
+NAME: QuestRun,"STEAMID: style=""text-align:center;""258070"
+NAME: Probability 0,"STEAMID: style=""text-align:center;""211360",NOTES: Steamworks title.
+NAME: Offspring Fling!,"STEAMID: style=""text-align:center;""226740",NOTES: Steamworks title.
+NAME: Monster Loves You!,STEAMID: 220860,NOTES: 
+NAME: McPixel,"STEAMID: style=""text-align:center;""40700"
+NAME: Machinarium,"STEAMID: style=""text-align:center;""205020"
+NAME: Lumino City,"STEAMID: style=""text-align:center;""209830",NOTES: Steamworks title.
+NAME: Lone Survivor,"STEAMID: style=""text-align:center;""250030",NOTES: Steamworks title.
+NAME: Lilly Looking Through,"STEAMID: style=""text-align:center;""284390",NOTES: Steamworks title.
+NAME: The Last Door,"STEAMID: style=""text-align:center;""214970",NOTES: Steamworks title.
+NAME: Intrusion 2,"STEAMID: style=""text-align:center;""62000",NOTES: Steamworks title.
+NAME: Flight Control HD,"STEAMID: style=""text-align:center;""285840",NOTES: Steamworks title.
+NAME: Enemy Mind,"STEAMID: style=""text-align:center;""218410",NOTES: Steamworks title.
+NAME: Defender's Quest: Valley of the Forgotten,"STEAMID: style=""text-align:center;""315650"
+NAME: Deep Under the Sky,"STEAMID: style=""text-align:center;""363970",NOTES: Steamworks title.
+NAME: Clicker Heroes,"STEAMID: style=""text-align:center;""207690",NOTES: Steamworks title.
+NAME: Botanicula,"STEAMID: style=""text-align:center;""113200",NOTES: Steamworks title.
+NAME: The Binding of Isaac,"STEAMID: style=""text-align:center;""214790"
+NAME: The Basement Collection,"STEAMID: style=""text-align:center;""205870"
+NAME: Auditorium,"STEAMID: style=""text-align:center;""234900",NOTES: Steamworks title.
+NAME: Anodyne,"STEAMID: style=""text-align:center;""99120","NOTES: Steamworks title. Its filesteam_api.dll is required to run the game, and online leaderboards and Steam achievements are disabled without a Steam log-in, but the game can be played otherwise."
+NAME: Yar's Revenge,"STEAMID: style=""text-align:center;""7510","NOTES: Steamworks title. MacOS X and Linux versions are Wineskin-wrapped ports.<ref>Refurlurl=https://steamcommunity.com/games/7510/announcements/detail/244718878347983266title=Linux and Mac ports available now! - Steam Community :: Group Announcements :: X-Bladesdate=June 27, 2017</ref>"
+NAME: X-Blades,"STEAMID: style=""text-align:center;""70660"
+NAME: Worms Pinball,"STEAMID: style=""text-align:center;""292030"
+NAME: The Witcher 3: Wild Hunt,"STEAMID: style=""text-align:center;""20920","NOTES: Steamworks title. It has CEG, but you can use the provided CD key to get the DRM-free backup copy (you get installation files) at https://www.gog.com/witcher/backup GOG.com."
+NAME: The Witcher 2: Assassins of Kings Enhanced Edition,"STEAMID: style=""text-align:center;""20900"
+NAME: The Witcher: Enhanced Edition Director's Cut,"STEAMID: style=""text-align:center;""343810"
+NAME: Uninvited: MacVenture Series,"STEAMID: style=""text-align:center;""31170"
+NAME: Tales of Monkey Island Complete Pack,"STEAMID: style=""text-align:center;""238210","NOTES: Steamworks title. On Linux it should be DRM-Free as well. It may be hard to launch though, since it is using a Wine-wrapper."
+NAME: System Shock 2,"STEAMID: style=""text-align:center;""238210"
+NAME: System Shock: Enhanced Edition,STEAMID: 821890,NOTES: Steamworks title.
+NAME: Steven Universe: Save the Light,STEAMID: 6060
+NAME: Star Wars: Battlefront II,"STEAMID: style=""text-align:center;""606710"
+NAME: SpongeBob SquarePants: Battle for Bikini Bottom - Rehydrated,"STEAMID: style=""text-align:center;""606710"
+NAME: Sphinx and the Cursed Mummy,"STEAMID: style=""text-align:center;""315260"
+NAME: Space Hack,"STEAMID: style=""text-align:center;""3700",NOTES: Steamworks title.
+NAME: Sniper Elite,"STEAMID: style=""text-align:center;""294440",NOTES: Steamworks title. Delete/rename <code>steam_api.dll</code> and <code>SteamworksNative.dll</code> to prevent Steam being detected and launched. Bundled retro game installer is also DRM-free.
+NAME: Shadowgate (2014),"STEAMID: style=""text-align:center;""343800"
+NAME: Shadowgate: MacVenture Series,STEAMID: 385560,"NOTES: Steamworks title. DRM-free when launched directly from its executable. Steam Achievements, cloud saving, and online leaderboards are disabled without a Steam log-in (in-game Achievements are not affected), but plays fine otherwise. Some settings however reset if not launched via Steam."
+NAME: Shadow Complex Remastered,"STEAMID: style=""text-align:center;""218680","NOTES: Steamworks title. Warns about Steam absence but plays without issues. Object editor and custom objects are not available when not launched from Steam.<ref name=""pedrovay2003""/>"
+NAME: Scribblenauts Unlimited,STEAMID: 429940
+NAME: Sam & Max Hit the Road,"STEAMID: style=""text-align:center;""48900"
+NAME: Saira,"STEAMID: style=""text-align:center;""217140","NOTES: Steamworks title. Run <code>Binaries\Win32\ROTT.exe</code><ref>Refurlurl=https://steamcommunity.com/app/217140/discussions/0/846958223070023294/ title=Rise of the Triad: Lack of DRM confirmed by developer date=October 05, 2017</ref>"
+NAME: Rise of the Triad,"STEAMID: style=""text-align:center;""360960",NOTES: Steamworks title.
+NAME: Postal 2Postal 2: Paradise Lost,"STEAMID: style=""text-align:center;""223470",NOTES: Steamworks title.
+NAME: Postal 2,"STEAMID: style=""text-align:center;""232770",NOTES: Steamworks title.
+NAME: Postal,"STEAMID: style=""text-align:center;""65560"
+NAME: Painkiller Redemption,STEAMID: 262790
+NAME: Our Darker Purpose,STEAMID: 567150
+NAME: Mosaics Galore,"STEAMID: style=""text-align:center;""16730",NOTES: SecuROM <code>paul.dll</code> remnant in the installation folder does nothing and the game still works if it is deleted.
+NAME: Legendary,STEAMID: 261110,"NOTES: Steamworks title. Can be played without Steam by using the Glossary:Command line argumentscommand-line argument code-nosteam. Online leaderboards however are inaccessible without a Steam log-in, but plays fine otherwise."
+NAME: Killer Is Dead,STEAMID: 588950,NOTES: Steamworks title.
+NAME: Kingsway,"STEAMID: style=""text-align:center;""8790"
+NAME: GTR 2 - FIA GT Racing Game,"STEAMID: style=""text-align:center;""44600"
+NAME: GTR - FIA GT Racing Game,"STEAMID: style=""text-align:center;""44690"
+NAME: GT Legends,"STEAMID: style=""text-align:center;""12120"
+NAME: Grand Theft Auto: San Andreas,"STEAMID: style=""text-align:center;""202200"
+NAME: Galactic Civilizations II: Dread LordsGalactic Civilizations II: Ultimate Edition,"STEAMID: style=""text-align:center;""214150"
+NAME: Galactic CivilizationsGalactic Civilizations I: Ultimate Edition,"STEAMID: style=""text-align:center;""345610",NOTES: Steamworks title.
+NAME: The Fruit of Grisaia,"STEAMID: style=""text-align:center;""2280"
+NAME: Final Doom,"STEAMID: style=""text-align:center;""204030"
+NAME: Fable: The Lost Chapters,"STEAMID: style=""text-align:center;""311100"
+NAME: Echelon: Wind Warriors,"STEAMID: style=""text-align:center;""311080"
+NAME: Echelon (2001),"STEAMID: style=""text-align:center;""237630",NOTES: Steamworks title.
+NAME: DuckTales: Remastered,"STEAMID: style=""text-align:center;""1148590"
+NAME: Doom 64,"STEAMID: style=""text-align:center;""9050","NOTES: Stock executable has Steam DRM check. Download and install the retail http://www.patches-scrolls.com/doom3.php v1.3.1 patch in different location from where the Steam version of Doom 3 is installed (e.g. <code>C:\Program Files\Doom 3</code>), then copy the fileDoom3.exe executable from the retail v1.3.1 patch into the Steam version's installation folder. Back-up your original Steam executable before using the retail version's executable.<ref>Refcheckuser=AmethystViperdate=2020-04-26comment=Performed a clean re-install of Doom 3 and Resurrection of Evil and was prompted to log into Steam. Removing Steam (or renaming steam.exe) did not launch the game either. Using the retail version's v1.3.1 executable however bypassed the Steam requirements.</ref>"
+NAME: Doom 3,"STEAMID: style=""text-align:center;""2300"
+NAME: Doom II: Hell on Earth,"STEAMID: style=""text-align:center;""2280"
+NAME: Doom,"STEAMID: style=""text-align:center;""343830"
+NAME: Déjà Vu II: MacVenture Series,"STEAMID: style=""text-align:center;""287340",NOTES: Steamworks title. Delete/rename Steam DLLs to prevent Steam being detected and launched.
+NAME: Colin McRae Rally (2014),STEAMID: 78000,NOTES: Steamworks title.
+NAME: Bejeweled 3,"STEAMID: style=""text-align:center;""35140","NOTES: Steamworks title. Can be played without Steam by using the Glossary:Command line argumentscommand-line argument code-nosteam. Steam saves however are not compatible with non-Steam mode.<ref name=""pedrovay2003"">https://www.gog.com/forum/general_archive/humble_bundle_psa_batman_arkham_asylum_and_scribblenauts_unlimited_are_drmfree Humble Bundle PSA: Batman: Arkham Asylum and Scribblenauts Unlimited are DRM-free, page 1 - Forum - GOG.com</ref>"
+NAME: Batman: Arkham Asylum Game of the Year Edition,STEAMID: 650700,NOTES: Steamworks title.
+NAME: Yume Nikki,STEAMID: 569210,NOTES: Steamworks title.
+NAME: Yozora Rhapsody,STEAMID: 286100
+NAME: You Have to Win the Game,"STEAMID: style=""text-align:center;""299460",NOTES: Steamworks title. Delete/rename Steam DLLs to prevent Steam being detected and launched.
+NAME: Woodle Tree Adventures,STEAMID: 207420,NOTES: Steamworks title. Save data might not work unless Steam is running.
+NAME: Wizorb,"STEAMID: style=""text-align:center;""345650"
+NAME: Without Within,"STEAMID: style=""text-align:center;""326410",NOTES: Steamworks title.
+NAME: Windward,STEAMID: 938500,NOTES: Steamworks title.
+NAME: Willowbrooke Post,"STEAMID: style=""text-align:center;""429580",NOTES: Steamworks title.
+NAME: A Wild Catgirl Appears!,STEAMID: 435300,NOTES: Steamworks title.
+NAME: We Know the Devil,STEAMID: 379210,NOTES: Steamworks title.
+NAME: Wayward,STEAMID: 70300,NOTES: Steamworks title.
+NAME: VVVVVV,STEAMID: 207650,NOTES: Steamworks title.
+NAME: A Virus Named TOM,STEAMID: 102400,NOTES: Steamworks title.
+NAME: Vertex Dispenser,STEAMID: 262150
+NAME: Vanguard Princess,STEAMID: 1510
+NAME: Uplink,STEAMID: 18120,NOTES: Steamworks title.
+NAME: Unstoppable Gorg,STEAMID: 1114260
+NAME: Under What?,STEAMID: 391540,NOTES: Steamworks title.
+NAME: Undertale,STEAMID: 250520,NOTES: Steamworks title.
+NAME: Underrail,STEAMID: 416630,NOTES: Steamworks title.
+NAME: True Lover's Knot,STEAMID: 46540,NOTES: Steamworks title.
+NAME: Trapped Dead,STEAMID: 237930,NOTES: Steamworks title.
+NAME: Transistor,STEAMID: 490450
+NAME: Tokyo 42,STEAMID: 324710,NOTES: Steamworks title.
+NAME: To Be or Not To Be,STEAMID: 368620
+NAME: Timespinner,STEAMID: 37400
+"NAME: Time Gentlemen, Please! and Ben There, Dan That! Special Edition Double Pack",STEAMID: 220780,NOTES: Steamworks title.
+NAME: Thomas Was Alone,STEAMID: 404690,NOTES: Steamworks title.
+NAME: This Book Is A Dungeon,STEAMID: 340520,NOTES: Steamworks title. Warns about Steam absence (no achievements nor leaderboard submissions) but plays fine otherwise.
+NAME: Tallowmere,STEAMID: 342450,NOTES: Steamworks title.
+NAME: Sword Daughter,STEAMID: 44100,NOTES: Steamworks title.
+NAME: Super Laser Racer,STEAMID: 209540,NOTES: Steamworks title. Warns about Steam absence but should play without issues.
+NAME: Strike Suit Zero,STEAMID: 350910
+NAME: Streets of Fury EX,STEAMID: 278360
+NAME: A Story About My Uncle,STEAMID: 358750,NOTES: Steamworks title.
+NAME: Supraland,STEAMID: 40800,NOTES: Steamworks title.
+NAME: Super Meat Boy,STEAMID: 322500
+NAME: Superhot,STEAMID: 212800
+NAME: Super Crate Box,STEAMID: 313730
+NAME: Sunrider: Mask of Arcadius,STEAMID: 358750,NOTES: Steamworks title.
+NAME: Sunrider: Liberation Day,STEAMID: 340730,NOTES: Steamworks title.
+NAME: Sunrider Academy,"STEAMID: style=""text-align:center;""576860",NOTES: Steamworks title.
+NAME: Summer Nightmare,STEAMID: 264710
+NAME: Subnautica,STEAMID: 407340,NOTES: Steamworks title.
+NAME: Strawberry Vinegar,STEAMID: 322190
+NAME: SteamWorld Heist,STEAMID: 413150,NOTES: Steamworks title.
+NAME: Stardew Valley,STEAMID: 383460,NOTES: Steamworks title.
+NAME: Sound of Drop - fall into poison -,STEAMID: 390730,"NOTES: Steamworks title. Requires its filesteam_api.dll file in the installation folder but is playable without Steam running. Steam Achievements will be disabled, but plays fine otherwise."
+NAME: Sora,STEAMID: 356670
+NAME: Spooky's Jump Scare Mansion,STEAMID: 581230,NOTES: Steamworks title.
+NAME: Soul Saber 2,STEAMID: 45000,NOTES: Steamworks title.
+NAME: Sol Survivor,STEAMID: 200410,NOTES: Steamworks title.
+NAME: SOL: Exodus,STEAMID: 111100,NOTES: Steamworks title.
+NAME: Snuggle Truck,STEAMID: 433340,NOTES: Steamworks title.
+NAME: Slime Rancher,STEAMID: 369070
+NAME: Slain: Back from Hell,STEAMID: 381020
+NAME: Sky Rogue,STEAMID: 754810,NOTES: Steamworks title.
+NAME: Six Days of Snow,STEAMID: 312280,NOTES: Steamworks title. Offline only.
+NAME: Simply Chess,STEAMID: 250760,"NOTES: Steamworks title. Its filesteam_api.dll in the installation folder is required to run the game, and a message will appear to warn players about unavailable online features when launching the game without Steam, but is fully playable otherwise. The game will use the local save file instead of the one stored on Steam Cloud."
+NAME: Shovel Knight,STEAMID: 342490,NOTES: Steamworks title.
+NAME: Shipwreck,STEAMID: 244710
+NAME: Shelter,STEAMID: 277890
+NAME: Shantae: Risky's Revenge - Director's Cut,STEAMID: 522210,NOTES: Steamworks title.
+NAME: Serial Cleaner,STEAMID: 827290,NOTES: Steamworks title.
+NAME: Secret Little Haven,STEAMID: 429940,NOTES: Steamworks title.
+NAME: The Sad Story of Emmeline Burns,STEAMID: 516130
+NAME: Runner3,STEAMID: 422810
+NAME: River City Ransom: Underground,STEAMID: 906390
+NAME: Return.,STEAMID: 1035700,NOTES: Steamworks title.
+NAME: Reflections ~Dreams and Reality~,STEAMID: 234190
+NAME: Receiver,STEAMID: 292380,NOTES: Steamworks title.
+NAME: Racer 8,STEAMID: 316600,"NOTES: Steamworks title. Requires its filesteam_api.dll file in the installation folder but it is playable without Steam running. Steam Achievements will be disabled, but plays fine otherwise."
+NAME: QP Shooting - Dangerous!!,STEAMID: 219680
+NAME: Proteus,STEAMID: 108600,NOTES: Steamworks title.
+NAME: Project Zomboid,STEAMID: 560130,NOTES: Steamworks title.
+NAME: Pillars of Eternity II: Deadfire,STEAMID: 291650,NOTES: Steamworks title.
+NAME: Pillars of Eternity,STEAMID: 237570,NOTES: Steamworks title.
+NAME: Penny Arcade's On the Rain-Slick Precipice of Darkness 4,STEAMID: 213030,NOTES: Steamworks title.
+NAME: Penny Arcade's On the Rain-Slick Precipice of Darkness 3,STEAMID: 356570,NOTES: Steamworks title.
+NAME: Party Hard,STEAMID: 239030,NOTES: Steamworks title.
+"NAME: Papers, Please",STEAMID: 308580
+NAME: Orborun,STEAMID: 1057090,NOTES: Steamworks title.
+NAME: Ori and the Will of the Wisps,STEAMID: 387290,NOTES: Steamworks title.
+NAME: Ori and the Blind Forest: Definitive Edition,STEAMID: 264200,NOTES: Steamworks title.
+NAME: One Finger Death Punch,STEAMID: 585880,NOTES: Steamworks title.
+NAME: Once on a Windswept Night,STEAMID: 271240
+NAME: Offworld Trading Company,STEAMID: 15750,NOTES: Steamworks title.
+NAME: Oddworld: Stranger's Wrath HD,STEAMID: 15740,NOTES: Steamworks title.
+NAME: Oddworld: Munch's Oddysee,STEAMID: 319480
+NAME: Odallus: The Dark Call,STEAMID: 339200,NOTES: Steamworks title.
+NAME: Oceanhorn: Monster of Uncharted Seas,STEAMID: 306760,NOTES: Steamworks title.
+NAME: Obduction,STEAMID: 531630,NOTES: 
+NAME: Non-Linear Text Quests,STEAMID: 207530,NOTES: Steamworks title.
+NAME: Noitu Love 2: Devolution,STEAMID: 94400,NOTES: Steamworks title.
+NAME: Nidhogg,STEAMID: 433910
+NAME: Neon Drive,STEAMID: 556180
+NAME: Mysterium,STEAMID: 457530,NOTES: Steamworks title.
+NAME: My Lady,STEAMID: 489140
+NAME: Mr. Shifty,STEAMID: 113020,NOTES: Steamworks title.
+NAME: Monaco: What's Yours Is Mine,STEAMID: 428550,NOTES: Steamworks title.
+NAME: Momodora: Reverie Under the Moonlight,STEAMID: 302790
+NAME: Momodora III,STEAMID: 35000,NOTES: Saves do not carry over
+NAME: Mini Ninjas,STEAMID: 287980,NOTES: Steamworks title.
+NAME: Mini Metro,STEAMID: 314710,"NOTES: Steamworks title. Steam Achievements, online multiplayer, and leaderboards will not work without a Steam log-in, but plays fine otherwise."
+NAME: Mighty No. 9,STEAMID: 513580,NOTES: Steamworks title.
+NAME: Miaou Moon,STEAMID: 218820,NOTES: Steamworks title.
+NAME: Mercenary Kings,STEAMID: 268220,NOTES: Steamworks title.
+NAME: Meltdown,STEAMID: 390330
+NAME: Mekazoo,STEAMID: 248550,NOTES: Steamworks title.
+NAME: Megabyte Punch,STEAMID: 734920
+NAME: Meanders,STEAMID: 893360
+NAME: The Mansion,STEAMID: 313360
+NAME: The Maker's Eden,STEAMID: 366800
+NAME: Mainland,STEAMID: 930710,NOTES: Steamworks title.
+NAME: Main Character Simulator,STEAMID: 675530,NOTES: Steamworks title.
+NAME: M1: A Death in the Desert,STEAMID: 885640,NOTES: Steamworks title.
+NAME: Lynne,STEAMID: 459130,NOTES: Steamworks title.
+NAME: Love in the Glen,STEAMID: 251990,NOTES: Steamworks title.
+NAME: Long Live the Queen,STEAMID: 257970,NOTES: Steamworks title.
+NAME: Loren The Amazon Princess,STEAMID: 522610,NOTES: Steamworks title.
+NAME: Lord of the Seal,STEAMID: 448690,NOTES: 
+NAME: Lionessy Story,STEAMID: 374510,NOTES: Steamworks title.
+NAME: The Last Dogma,STEAMID: 407680,NOTES: Steamworks title.
+NAME: Last Days of Spring,STEAMID: 635320
+NAME: Last Day of June,STEAMID: 782340,NOTES: Steamworks title.
+NAME: Lake of Voices,STEAMID: 397270,NOTES: Steamworks title.
+NAME: A Kiss for the Petals - Remembering How We Met,STEAMID: 1250,NOTES: Steamworks title. Offline only.
+NAME: Killing Floor,STEAMID: 329460
+NAME: Jump Jet Rex,STEAMID: 377950,NOTES: Steamworks title.
+NAME: Jamestown+,STEAMID: 94200,NOTES: Steamworks title.
+NAME: Jamestown: Legend of the Lost Colony,STEAMID: 241320,NOTES: Steamworks title.
+NAME: Ittle Dew,STEAMID: 981310
+NAME: Ishmael,STEAMID: 279920,NOTES: Steamworks title.
+NAME: Infinity Runner,STEAMID: 498500
+NAME: I Am the Hero,STEAMID: 453340,NOTES: Steamworks title.
+NAME: Hustle Cat,STEAMID: 339800,NOTES: Steamworks title.
+NAME: HuniePop,STEAMID: 303310,NOTES: Steamworks title.
+NAME: The House in Fata Morgana,STEAMID: 833040,NOTES: Steamworks title.
+NAME: Hiveswap Friendsim,STEAMID: 451760,NOTES: Steamworks title.
+NAME: Highway Blossoms,STEAMID: 408770,NOTES: Steamworks title.
+NAME: Highschool Possession,STEAMID: 336300,"NOTES: Steamworks title. Linux: Run filehearthlands.sh. Must have Java installed, because it can't default to Steam-provided JRE."
+NAME: Hearthlands,STEAMID: 326840
+NAME: Heart&Slash,STEAMID: 546490,NOTES: Steamworks title.
+NAME: Heart and Seoul,STEAMID: 340000
+NAME: Headlander,STEAMID: 41800,"NOTES: Steamworks title. Linux dependencies are easiest solved with ""run.sh"" from steam-runtime (not bound to Steam)."
+NAME: Gratuitous Space Battles,STEAMID: 205530,NOTES: Steamworks title.
+NAME: Gratuitous Tank Battles,STEAMID: 265930,NOTES: Steamworks title. Might not save games without Steam.
+NAME: Goat Simulator,STEAMID: 216290,NOTES: Steamworks title.
+NAME: Gateways,STEAMID: 840010,NOTES: Steamworks title.
+NAME: Garden Paws,STEAMID: 273770,NOTES: Steamworks title.
+NAME: Game Tycoon 1.5,STEAMID: 212680,NOTES: Steamworks title.
+NAME: FTL: Faster Than Light,STEAMID: 670350
+NAME: The Free Ones,STEAMID: 586670,NOTES: Steamworks title.
+NAME: A Foretold Affair,STEAMID: 1036370,"NOTES: Steamworks title. Requires its filesteam_api.dll file in the installation folder to run the game but it is playable with Steam running. Steam Achievements are disabled, but the game plays fine otherwise."
+NAME: Flying Red Barrel: The Diary of a Little Aviator,STEAMID: 302380
+NAME: Floating Point,STEAMID: 894310,NOTES: Steamworks title.
+NAME: Finding Light,STEAMID: 224760,"NOTES: Steamworks title. On Windows, run <code>FEZ_LaunchOption.exe</code> to disable Steamworks so you can use DRM-free version."
+NAME: Fez,STEAMID: 574740
+NAME: Fausts Alptraum,STEAMID: 344770,NOTES: Steamworks title.
+NAME: Fault - Milestone Two,STEAMID: 286260,NOTES: Steamworks title.
+NAME: Fault - Milestone One,STEAMID: 286340
+NAME: FarSky,STEAMID: 787400,NOTES: Steamworks title.
+NAME: Fantasy Versus,STEAMID: 38600,NOTES: Steamworks title.
+NAME: Faerie Solitaire,STEAMID: 207400
+NAME: eXceed 3rd - Jade Penetrate Black Package,STEAMID: 207380
+NAME: eXceed 2nd - Vampire REX,STEAMID: 207370
+NAME: eXceed - Gun Bullet Children,STEAMID: 255340,NOTES: Steamworks title.
+NAME: Escape Goat 2,STEAMID: 523780,NOTES: Steamworks title.
+NAME: Emily is Away Too,STEAMID: 345700,NOTES: Steamworks title.
+NAME: Echo Tokyo: Intro,STEAMID: 249630
+NAME: Delver,STEAMID: 236090,"NOTES: Steamworks title. Windows version, however, uses Steam DRM."
+NAME: Dust: An Elysian Tail,STEAMID: 519860,NOTES: Steamworks title.
+NAME: Dusk,STEAMID: 98800,NOTES: Steamworks title.
+NAME: Dungeons of Dredmor,STEAMID: 65800,NOTES: Steamworks title.
+NAME: Dungeon Defenders,STEAMID: 364390,NOTES: Steamworks title.
+NAME: Downfall,STEAMID: 698780
+NAME: Doki Doki Literature Club!,STEAMID: 348540,NOTES: Steamworks title.
+NAME: Divine Slice of Life,STEAMID: 248330,NOTES: Steamworks title.
+NAME: Dino Run DX,STEAMID: 436500,NOTES: Steamworks title.
+NAME: Diaries of a Spaceport Janitor,"STEAMID: style=""text-align:center;""459940",NOTES: Steamworks title.
+NAME: Deer Man,"STEAMID: style=""text-align:center;""301380",NOTES: Steamworks title.
+NAME: Date Warp,"STEAMID: style=""text-align:center;""461230"
+NAME: Dashy Square,STEAMID: 262060,"NOTES: Steamworks title. For Windows it has a folder in its folder called ""_windowsnosteam"" and run it with fileDarkest.exe. It uses a different save than the Steam launcher."
+NAME: Darkest Dungeon,STEAMID: 490940,NOTES: Steamworks title.
+NAME: Darconika: The Cube of Soul,STEAMID: 268910,"NOTES: Steamworks Title. Steam DRM check is only on first launch, the game can be run in DRM-free mode afterwards by launching it from the fileCuphead.exe executable."
+NAME: Cuphead,STEAMID: 107310
+NAME: Cthulhu Saves the World,STEAMID: 368340
+NAME: CrossCode,STEAMID: 209670,NOTES: Steamworks title. Requires its filesteam_api.dll file in the installation folder to run the game.
+NAME: Cortex Command,STEAMID: 247020,NOTES: Steamworks title.
+"NAME: Cook, Serve, Delicious!",STEAMID: 299260
+NAME: Commando Jack,STEAMID: 598980,NOTES: Steamworks title.
+NAME: The Coin Game,STEAMID: 26500,"NOTES: Steamworks title. On Linux, requires 32-bit version of SDL installed or copied to the installation folder."
+NAME: Cogs,STEAMID: 1378290
+NAME: The Citadel,STEAMID: 253110,NOTES: Steamworks title.
+NAME: The Cat Lady,STEAMID: 271820,NOTES: Steamworks title.
+NAME: Card City Nights,STEAMID: 250660
+NAME: Bunny Must Die! Chelsea and the 7 Devils,STEAMID: 107300
+NAME: Breath of Death VII: The Beginning,STEAMID: 692850
+NAME: Bloodstained: Ritual of the Night,STEAMID: 657290,NOTES: Steamworks title.
+NAME: Blind Men,STEAMID: 396350,"NOTES: Steamworks title. Its fileCSteamWrapper.dll, filesteam_api.dll, and fileSteamworks.NET.dll files in its installation folder are required, but can be played without Steam."
+NAME: Bleed 2,STEAMID: 314710,"NOTES: Steamworks title. Its filesteam_api.dll and fileSteamWrapper.dll files in its installation folder are required, but can be played without Steam."
+NAME: Bleed,STEAMID: 311800,NOTES: Steamworks title - will work when Steam is completely off
+NAME: Black Ice,STEAMID: 433950,NOTES: Steamworks title.
+NAME: Bit Blaster XL,STEAMID: 968500
+NAME: A Bewitching Revolution,STEAMID: 285070,NOTES: Steamworks title.
+NAME: Between Me and The Night,STEAMID: 475550,NOTES: Steamworks title.
+NAME: Beholder,STEAMID: 284160,NOTES: Steamworks title.
+NAME: BeamNG DriveBeamNG.drive,STEAMID: 107100,NOTES: Steamworks title.
+NAME: Bastion,STEAMID: 371970,NOTES: Steamworks title.
+NAME: Barony,STEAMID: 473770,"NOTES: Steamworks title. Steamworks-related features such as Steam Achievements and Leaderboards will be disabled without a Steam log-in, but plays fine otherwise.<ref>Refurlurl=https://steamcommunity.com/games/473770/announcements/detail/1439318968088458913title=BallisticNG 0.9 is now out and the game will soon be transitioning to paid, read for details - Steam Announcementsdate=2020-07-11snippet=BallisticNG is going to be completely DRM free, it will continue to function as it does now where the game does not require Steam to be running and will only disable Steamworks features when no instance of Steam is found - features such as the workshop, leaderboards, achievements and in the future, online multiplayer.</ref> Steam Workshop items can also be played without Steam by installing them from the Workshop and then importing the files to the game's respective mod folders."
+NAME: BallisticNG,STEAMID: 736260,NOTES: Steamworks title.
+NAME: Baba Is You,STEAMID: 112100,NOTES: Steamworks title.
+NAME: Avadon: The Black Fortress,STEAMID: 250110,"NOTES: Steamworks title. Cannot access the online Daily Drive (offline version will be used) or leaderboards without a Steam log-in, but plays fine otherwise."
+NAME: Assault Android Cactus,STEAMID: 427980,NOTES: Steamworks title.
+NAME: Ara Fell,STEAMID: 440540,NOTES: Steamworks title.
+NAME: Aozora Meikyuu,STEAMID: 219890
+NAME: Antichamber,STEAMID: 217690,NOTES: Steamworks title. Windows version requires both Steam & Kalypso account login.
+NAME: Anna - Extended Edition,STEAMID: 542200,NOTES: Steamworks title.
+NAME: Animal Lover,STEAMID: 209370,NOTES: Steamworks title.
+NAME: Analogue: A Hate Story,STEAMID: 57300,NOTES: Steamworks title.
+NAME: Amnesia: The Dark Descent,STEAMID: 623840,NOTES: Steamworks title.
+NAME: Ambre - a heartbreaking kinetic novel,STEAMID: 698050,NOTES: Steamworks title.
+NAME: All Our Asias,STEAMID: 377280,NOTES: Steamworks title. If copying to another offline machine match the correct architecture (32-bit/64-bit). In-game achievements offer to sync to Steam achievements if/when connected.
+NAME: Alarameth TD,STEAMID: 295810
+NAME: Air Control,STEAMID: 211440,NOTES: Steamworks title.
+NAME: Adventures of Shuggy,STEAMID: 390710,"NOTES: Steamworks title. Requires its filesteam_api.dll file in the installation folder to run the game but it is playable with Steam running. Cannot access online lobbies and Steam Achievements are disabled, but the game plays fine otherwise."
+NAME: Acceleration of SUGURI 2,STEAMID: 15560,NOTES: Steamworks title.
+NAME: AaaaaAAaaaAAAaaAAAAaAAAAA!!! for the Awesome,STEAMID: 315340
+NAME: A.R.E.S.: Extinction Agenda EX,STEAMID: 92300
+NAME: A.R.E.S.: Extinction Agenda,STEAMID: 227580,NOTES: Steamworks title.
+"NAME: 10,000,000",STEAMID: 335190,"NOTES: Steamworks title. Requires its filesteam_api.dll file in the installation folder to run the game but it is playable with Steam running. Cannot access online multiplayer and Steam Achievements are disabled, but the game plays fine otherwise."
+NAME: 200% Mixed Juice!,STEAMID: 242820,NOTES: Steamworks title.
+NAME: 140,STEAMID: 282800,"NOTES: Steamworks title. Requires its filesteam_api.dll file in the installation folder to run the game but it is playable without Steam running. Steam Achievements, online lobbies, leaderboards, DLCs, and other Steam-related features cannot be accessed without a Steam log-in, but plays fine otherwise."
+NAME: 100% Orange Juice!,STEAMID: 538680,NOTES: Steamworks title.
+NAME: The Legend of Heroes: Trails of Cold Steel,STEAMID: 436670,"NOTES: Steamworks title. DRM was removed in a patch.<ref name=""XSEED dev Twitter""/>"
+NAME: The Legend of Heroes: Trails in the Sky the 3rd,STEAMID: 251290,"NOTES: Steamworks title. DRM was removed in a patch.<ref name=""XSEED dev Twitter""/>"
+NAME: The Legend of Heroes: Trails in the Sky SC,STEAMID: 251150,"NOTES: Steamworks title. DRM was removed in a patch.<ref name=""XSEED dev Twitter"">https://twitter.com/SaraJLeen/status/894734478823702528</ref>"
+NAME: The Legend of Heroes: Trails in the Sky,STEAMID: 400,NOTES: Steamworks title. In Cmd/Terminal run: '''Windows''': codehl2.exe -game portal  '''Linux''': code./hl2.sh -game portal.
+NAME: Portal,STEAMID: 340,NOTES: Steamworks title. In Cmd/Terminal run: '''Windows''': codehl2.exe -game lostcoast '''Linux''': code./hl2.sh -game lostcoast.
+NAME: Half-Life 2: Lost Coast,STEAMID: 420,NOTES: Steamworks title. In Cmd/Terminal run: '''Windows''': codehl2.exe -game ep2 '''Linux''': code./hl2.sh -game ep2.
+NAME: Half-Life 2: Episode Two,STEAMID: 380,NOTES: Steamworks title. In Cmd/Terminal run: '''Windows''': codehl2.exe -game episodic '''Linux''': <code>./hl2.sh -game episodic</code>.
+NAME: Half-Life 2: Episode One,STEAMID: 220,NOTES: Steamworks title. In Cmd/Terminal run: '''Windows''': codehl2.exe '''Linux''': code./hl2.sh.
+NAME: Half-Life 2,STEAMID: 360,NOTES: Steamworks title. In Cmd/Terminal run: '''Windows''': codehl2.exe -game hl1mp '''Linux''': code./hl2.sh -game hl1mp. Use console to create/join lan server.
+NAME: Half-Life Deathmatch: Source,STEAMID: 280,NOTES: Steamworks title. In Cmd/Terminal run: '''Windows''': codehl2.exe -game hl1 '''Linux''': code./hl2.sh -game hl1.
+NAME: Half-Life: Source,STEAMID: 240,NOTES: Steamworks title. In Cmd/Terminal run: '''Windows''': codehl2.exe -game cstrike '''Linux''': code./hl2.sh -game cstrike. Use console to create/join lan server.
+NAME: Counter Strike: Source,STEAMID: 362890,NOTES: Steamworks title. In Terminal run: '''Linux''': code./bms.sh.
+NAME: Black Mesa,STEAMID: 207490
+NAME: Rayman Origins,STEAMID: 305050
+NAME: Outland,STEAMID: 15370
+NAME: Heroes of Might & Magic V: Tribes of the East,STEAMID: 19900
+NAME: Far Cry 2: Fortune's Edition,STEAMID: 33210
+NAME: Dawn of Discovery,STEAMID: 15100
+NAME: Assassin's CreedAssassin's Creed: Director's Cut Edition,STEAMID: 33250
+NAME: Anno 1404,STEAMID: 224980
+NAME: Tomb Raider: The Last Revelation,STEAMID: 211740
+NAME: Thief II: The Metal Age,STEAMID: 211600
+NAME: Thief Gold,STEAMID: 595520
+NAME: Final Fantasy XII: The Zodiac Age,STEAMID: 359870
+NAME: Final Fantasy X/X-2 HD Remaster,STEAMID: 39200
+NAME: Dungeon Siege II,STEAMID: 39190
+NAME: Dungeon Siege,STEAMID: 294860
+NAME: Valkyria Chronicles,STEAMID: 71260
+NAME: Space Channel 5: Part 2 (Steam),STEAMID: 202530,NOTES: Steamworks title.
+NAME: Sonic the Hedgehog 4 - Episode I,STEAMID: 71250
+NAME: Sonic Adventure DX (Steam),STEAMID: -sub102625
+NAME: Sega Mega Drive and Genesis Classics,STEAMID: 71240
+NAME: Sega Bass Fishing (Steam),STEAMID: 220900,NOTES: Steamworks title.
+NAME: Jack Lumber,STEAMID: 71230
+NAME: Crazy Taxi (Steam),"STEAMID: style=""text-align:center;""34010"
+NAME: Alpha Protocol,STEAMID: 42960,NOTES: Steamworks title. Includes 42968A House Divided and 215001/and Heart of Darkness expansions and all DLCs.
+NAME: Victoria II,STEAMID: 73210,NOTES: Steamworks title.
+NAME: Sengoku,STEAMID: 227760,NOTES: Steamworks title.
+NAME: March of the Eagles,STEAMID: 25980
+NAME: Majesty 2,STEAMID: 25990
+NAME: Majesty Gold HD,"STEAMID: style=""text-align:center;""231740",NOTES: Steamworks title.
+NAME: Knights of Pen and Paper +1 Edition,STEAMID: 25890,NOTES: Steamworks title. Includes all expansions and DLCs.
+NAME: Hearts of Iron III,STEAMID: 22130
+NAME: Hearts of Iron IIHearts of Iron 2 Complete,STEAMID: 42810
+NAME: For the Glory: A Europa Universalis Game,STEAMID: 23420
+NAME: Europa Universalis: RomeEuropa Universalis: Rome - Gold Edition,STEAMID: 236850,NOTES: Steamworks title. Includes all expansions and DLCs.
+NAME: Europa Universalis IV,STEAMID: 25800,NOTES: Steamworks title. Includes 25806Heir to the Throne and 25808Divine Wind expansions and all DLCs.
+NAME: Europa Universalis III Complete,STEAMID: -sub4190
+NAME: East India Company,STEAMID: 73170,"NOTES: Steam has outdated v1.02. Download https://forum.paradoxplaza.com/forum/showthread.php?635575-Darkest-Hour-Patch-1.03-Hot-fixes v1.03 patch from developers and read Installation notes - Steam users. After patch, game is DRM-free."
+NAME: Darkest Hour: A Hearts of Iron Game,STEAMID: 204940
+NAME: Crusader Kings Complete,STEAMID: 49300
+NAME: Commander: Conquest of the Americas,"STEAMID: style=""text-align:center;""73010",NOTES: Steamworks title.
+NAME: Cities in Motion,STEAMID: 42850,NOTES: Steam and other digital distributors have outdated v1.07 because Paradox dropped support. Download https://forum.paradoxplaza.com/forum/showthread.php?628167-108is-released&p=14262019&viewfull=1 v1.08 patch and apply it.
+NAME: Arsenal of Democracy: A Hearts of Iron Game,STEAMID: 240760,NOTES: Steamworks title.
+NAME: Wasteland 2,STEAMID: 259130,NOTES: Steamworks title.
+NAME: Wasteland 1 - The Original Classic,STEAMID: 41900
+NAME: The Bard's Tale,STEAMID: 230230,NOTES: Steamworks title.
+NAME: Divinity: Original Sin,STEAMID: 243950,NOTES: Steamworks title.
+NAME: Divinity: Dragon Commander,STEAMID: 219780
+NAME: Divinity II: Developer's Cut,STEAMID: 214170
+NAME: Divine Divinity,STEAMID: 219760
+NAME: Beyond Divinity,STEAMID: 115110,NOTES: Steamworks title.
+NAME: Stacking,STEAMID: 246090,NOTES: Steamworks title.
+NAME: Spacebase DF-9,STEAMID: 3830,NOTES: Steamworks title.
+NAME: Psychonauts,STEAMID: 221810,NOTES: Steamworks title.
+NAME: The Cave,STEAMID: 225260,NOTES: Steamworks title.
+NAME: Brutal Legend,STEAMID: 232790,NOTES: Steamworks title.
+NAME: Broken Age,STEAMID: 227780
+NAME: Serious Sam Classics: Revolution,STEAMID: 41060
+NAME: Serious Sam Classic: The Second Encounter,STEAMID: 41050
+NAME: Serious Sam Classic: The First Encounter,STEAMID: 474750,NOTES: Steamworks title.
+NAME: Reigns,STEAMID: 361300
+NAME: Mother Russia Bleeds,STEAMID: 233150,NOTES: Steamworks title. Leaderboards cannot be accessed if the user is not logged into Steam.
+NAME: Luftrausers,STEAMID: 274170,NOTES: Steamworks title.
+NAME: Hotline Miami 2: Wrong Number,STEAMID: 219150,NOTES: Steamworks title. DRM-free if you disable Steamworks (on Windows) when game launches. Linux is DRM-Free out of the box.
+NAME: Hotline Miami,STEAMID: 297120,NOTES: Steamworks title. Leaderboards cannot be accessed if the game is not launched through Steam.
+NAME: Heavy Bullets,STEAMID: 377080,NOTES: Steamworks title.
+NAME: Hatoful Boyfriend: Holiday Star,STEAMID: 310080,NOTES: Steamworks title.
+NAME: Hatoful Boyfriend,STEAMID: 311690
+NAME: Enter the Gungeon,STEAMID: 274190,NOTES: Steamworks title. Offline play only.
+NAME: Broforce,STEAMID: 237950
+NAME: UFO: Afterlight,STEAMID: 65730
+NAME: Take On Helicopters,STEAMID: 235320
+NAME: Original War,STEAMID: 65790
+NAME: Arma: Cold War Assault,STEAMID: 65780
+NAME: Arma: Armed Assault,STEAMID: 224860
+NAME: Arma Tactics,STEAMID: 33900
