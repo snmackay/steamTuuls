@@ -25,32 +25,46 @@ def openFile(fileName):
             array_boii.append(row)
     return array_boii
 
-def main(arg):
-    if arg=="steamDB":
-        drmList=steam.drmListOpen()
-        print("parsed text file")
-        cleanedList=steam.listCleaner(drmList)
-        cleanedList=steam.listOrganize(cleanedList)
-        print("data cleaned")
-        createFile(cleanedList,"dataBases/SteamDRMFree.csv")
-        print("database creation successful")
-    elif arg=="steamdrm?":
-        fetchedSteamDB=openFile("dataBases/SteamDRMFree.csv")
-        steam.exists(fetchedSteamDB)
-    elif arg =="gogDB":
-        rawdb=gog.processGog()
-        writeOut=gog.createRaw(rawdb)
-        contents=gog.readRaw()
-        cleanedFile=gog.cleaner(contents)
-        createFile(cleanedFile,"dataBases/GOG.csv")
-    elif arg =="onGog":
-        fetchedGogDB=openFile("dataBases/GOG.csv")
-        gog.selectAction(fetchedGogDB)
-
+def main():
+    while 0==0:
+        print(" ")
+        print("________________________________________________________________")
+        print(" ")
+        print("Type 'steamDB' to regenerate the steam drm free games list.")
+        print("Type 'steamdrm?' to check and see if a game has drm.")
+        print("Type 'gogDB' to regenerate the GOG games database.")
+        print("Type 'onGog' to check discounts and see if GOG has a game.")
+        print("Type 'quit' to exit the tool.")
+        text=input("Response: ")
+        if text=="steamDB":
+            drmList=steam.drmListOpen()
+            print("parsed text file")
+            cleanedList=steam.listCleaner(drmList)
+            cleanedList=steam.listOrganize(cleanedList)
+            print("data cleaned")
+            createFile(cleanedList,"dataBases/SteamDRMFree.csv")
+            print("database creation successful")
+        elif text=="steamdrm?":
+            fetchedSteamDB=openFile("dataBases/SteamDRMFree.csv")
+            steam.exists(fetchedSteamDB)
+        elif text =="gogDB":
+            rawdb=gog.processGog()
+            writeOut=gog.createRaw(rawdb)
+            contents=gog.readRaw()
+            cleanedFile=gog.cleaner(contents)
+            createFile(cleanedFile,"dataBases/GOG.csv")
+        elif text=="onGog":
+            fetchedGogDB=openFile("dataBases/GOG.csv")
+            gog.selectAction(fetchedGogDB)
+        elif text=="quit":
+            print("Hope ya enjoyed!")
+            break
+        else:
+            print("Not a valid input please try again.")
 
 
 
 
 if "__name__==__main__":
     inputer= os.getcwd()
-    main(sys.argv[1])
+    main()
