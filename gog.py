@@ -138,14 +138,19 @@ def cleaner(contents):
 
 def selectAction(fetchedGogDB):
     while 0==0:
+        print(" ")
+        print("________________________________________________________________")
+        print(" ")
         print("Type 'on gog' for if Gog has the game.")
         print("Type 'on sale' for a list of games with a reduced price")
+        print("Type 'back' to go back to the main menu.")
         text=input("Response: ")
         if text =="on gog":
             exists(fetchedGogDB)
-            break
+
         elif text =="on sale":
             gamesOnSale(fetchedGogDB)
+        elif text== "back":
             break
         else:
             print("Not a valid input. Please try again.")

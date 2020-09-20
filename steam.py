@@ -1,7 +1,6 @@
 import csv
 import os
 
-
 ###############################################################################
 #Create Steam Database csv
 #passed arg: steamDB
@@ -101,15 +100,37 @@ def listOrganize(cleanedList):
 ###############################################################################
 
 def exists(fetchedSteamDB):
-    text=input("Type in the name of a game: ")
-    boo=0
-    for i in fetchedSteamDB:
-        if text in i[0]:
-            print("Game is DRM Free")
-            print(i)
-            boo=0
+    while 2==2:
+        print(" ")
+        print("________________________________________________________________")
+        print(" ")
+        print("Type 'check' to see if the game on steam has drm")
+        print("Type 'back' to go back to the main menu")
+        text=input("Response: ")
+        if text == "check":
+            while 2==2:
+                boo=0
+                print(" ")
+                print("________________________________________________________________")
+                print(" ")
+                print("Type in the name of the game to check if its drm free.")
+                print("Type 'back' to go back")
+                text1=input("Response: ")
+                if text1 =="back":
+                    break
+                else:
+                    for i in fetchedSteamDB:
+                        if text1 in i[0]:
+                            print("Game is DRM Free")
+                            print(i)
+                            boo=0
+                            break
+                        else:
+                            boo=1
+                    if(boo==1):
+                        print("The game you typed in: [ "+ text + " ] is not drm free")
+
+        elif text == "back":
             break
         else:
-            boo=1
-    if(boo==1):
-        print("The game you typed in: [ "+ text + " ] is not drm free")
+            print("Not a valid command, try again.")
