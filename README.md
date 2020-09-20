@@ -1,6 +1,8 @@
 steamTuuls: A set of helpful tools for quickly finding prices and seeing if
             games are drm free.
 
+NOTE: ARGV is depricated from version 0.0.2, follow the onscreen prompts.
+
 Author: Sean Mackay
 
 Use:
