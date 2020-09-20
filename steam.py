@@ -21,11 +21,9 @@ def drmListOpen():
 def listCleaner(drmList):
     cleanedList=[]
     for line in drmList:
-        #print(line)
         if line[0]=='|' and len(line) >4:
             if line[len(line)-3] != '|':
                 cleanedList.append(line)
-                #print(line)
 
     cleanedList2=[]
     counter=0
@@ -56,14 +54,11 @@ def listCleaner(drmList):
             tempInner=tempInner.replace("{","")
             tempInner=tempInner.replace("}","")
             tempInner=tempInner.replace("style=\"text-align: center;\"","")
-            #tempInner=tempInner.replace("\"style=\"\"text-align: center;\"\"","")
             tempInner=tempInner.replace("linkSteam","")
             tempInner=tempInner.replace("store ","")
             temp.append(tempInner)
         cleanedList3.append(temp)
 
-    #for i in cleanedList3:
-        #print(i)
     return cleanedList3
 
 def listOrganize(cleanedList):
@@ -75,7 +70,6 @@ def listOrganize(cleanedList):
         temp.append("NAME: "+i[0])
         i[numElems-1]=i[numElems-1].replace("Link","")
         temp.append("STEAMID: "+i[numElems -1])
-        #print(temp)
         if(numElems==3):
             if("style=" not in i[1]):
                 temp.append("NOTES: "+ i[1])
@@ -86,8 +80,6 @@ def listOrganize(cleanedList):
                 temp.append("NOTES: "+ i[2])
         newList.append(temp)
 
-    #for i in newList:
-        #print(i)
     return newList
 
 ###############################################################################
