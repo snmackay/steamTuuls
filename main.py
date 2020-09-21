@@ -9,6 +9,7 @@ import urllib, json
 
 import steam
 import gog
+import settings
 
 
 
@@ -26,6 +27,9 @@ def openFile(fileName):
     return array_boii
 
 def main():
+    settingStore=settings.loadSettings()
+    settingStore2=settings.processSettings(settingStore)
+
     while 0==0:
         print(" ")
         print("________________________________________________________________")
@@ -34,6 +38,10 @@ def main():
         print("Type 'steamdrm?' to check and see if a game has drm.")
         print("Type 'gogDB' to regenerate the GOG games database.")
         print("Type 'onGog' to check discounts and see if GOG has a game.")
+        #print("Type 'onDisk' to generate lists of what games you have")
+        #print("^Note: This requires providing the directories via settings.txt")
+        print("Type 'galaxyDB' to generate the database for games in GOG Galaxy 2 DB")
+        print("Type 'galaxyquery' to see if you own the game and find out your stats.")
         print("Type 'quit' to exit the tool.")
         text=input("Response: ")
         if text=="steamDB":
@@ -56,6 +64,11 @@ def main():
         elif text=="onGog":
             fetchedGogDB=openFile("dataBases/GOG.csv")
             gog.selectAction(fetchedGogDB)
+        elif text=="galaxyDB":
+            settings.generateDB()
+        elif text == "galaxyquery":
+            opened_data=openFile("dataBases/gameDB.csv")
+            settings.queryDB(opened_data)
         elif text=="quit":
             print("Hope ya enjoyed!")
             break

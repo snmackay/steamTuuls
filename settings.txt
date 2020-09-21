@@ -1,0 +1,3 @@
+[ListDirectoriesSteam: ___ , ____ , ____ , ___ , _____]
+[ListDirectoriesOther: ___, ___, ____, ___, ____]
+[UserEmail: _____]

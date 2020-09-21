@@ -1,0 +1,6 @@
+###### Requirements without Version Specifiers ######`
+natsort
+urllib3
+requests
+
+###### Requirements with Version Specifiers ######`

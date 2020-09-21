@@ -21,7 +21,6 @@ def processGog():
         r = requests.get(url)
         a = r.json()
         for each in a['products']:
-            #print(each)
             del each['gallery']
             del each['video']
             del each['image']
@@ -38,7 +37,7 @@ def processGog():
             del each['developer']
             del each['rating']
         outer.append(a['products'])
-        print(counter)
+        print("Pages Handled: "+str(counter))
         counter+=1
     return outer
 
@@ -52,13 +51,10 @@ def createRaw(rawdb):
 def readRaw():
     f = open('dataBases/rawfile.txt','r')
     returner=f.read()
-    #print(returner)
     return returner
 
 def cleaner(contents):
-    print(type(contents))
     list=contents.split("{'publisher': ")
-    #print(list[1])
     temp1=[]
     for i in list:
         inner=i.split(", ")
@@ -66,7 +62,6 @@ def cleaner(contents):
 
     temp2=[]
     temp1.pop(0)
-    #print(temp1[0])
     for i in temp1:
         inner=[]
         wow=i[0]
@@ -102,7 +97,6 @@ def cleaner(contents):
         inner.append(i[2])
         inner.append(i[3])
         temp3.append(inner)
-    #print(temp3[0])
 
     temp4=[]
     for i in temp3:
@@ -113,10 +107,12 @@ def cleaner(contents):
                 inner.append(j)
             else:
                 tempy=j.split(": ")
-                inner.append(tempy[1])
+                tempy=tempy[1]
+                tempy=tempy.replace("[","")
+                tempy=tempy.replace("]","")
+                inner.append(tempy)
             counter+=1
         temp4.append(inner)
-    #print(temp4[1])
     print("Data has been cleaned")
     return temp4
 
