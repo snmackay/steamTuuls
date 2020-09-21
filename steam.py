@@ -54,6 +54,7 @@ def listCleaner(drmList):
             tempInner=tempInner.replace("{","")
             tempInner=tempInner.replace("}","")
             tempInner=tempInner.replace("style=\"text-align: center;\"","")
+            tempInner=tempInner.replace("style=\"text-align:center;\"","")
             tempInner=tempInner.replace("linkSteam","")
             tempInner=tempInner.replace("store ","")
             temp.append(tempInner)
