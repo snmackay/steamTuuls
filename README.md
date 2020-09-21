@@ -22,7 +22,7 @@ Use:
     -'gogDB' : Generates a new database file for all games on GOG
     -'onGog' :  Allows you to Query if games exist on GOG and whats on sale
 
-
+```
                          ______                     
  _________        .---"""      """---.              
 :______.-':      :  .--------------.  :             
@@ -41,7 +41,7 @@ Use:
                  .'.eeeeeeeeeeeeeeeeee.'.      :___:
       fsc      .'.eeeeeeeeeeeeeeeeeeeeee.'.         
               :____________________________:
-
+```
 
 DISCLAIMER: The goal is to promote games that do not use DRM utilities as they
             are detrimental to the customer experience. Illegal use of this
