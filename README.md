@@ -52,6 +52,8 @@ _______________________________________________________________________________
 Galaxy Integration:
 From their readme:
 Credit to original creators.
+  Their script can be found directly at: https://github.com/AB1908/GOG-Galaxy-Export-Script
+  This project uses a modified version of their original code. 
 
 NOTE: For galaxy integration to work, copy the file 'galaxy-2.0.db' from the
       install directory of GOG Galaxy 2.
