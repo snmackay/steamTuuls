@@ -1,5 +1,6 @@
-steamTuuls: A set of helpful tools for quickly finding prices and seeing if
-            games are drm free.
+steamTuuls: A set of helpful tools for interacting with your games collection. Currently this program mostly interacts with GOG galaxy 2's database file. 
+     Without GOG Galaxy 2 installed, there is still some level of limited functionality in the form of GOG price information, library querying, and finding
+     out what steam games are drm free.
 
 Author: Sean Mackay
 
@@ -8,13 +9,13 @@ Use:
                   Make sure urllib3 is installed by running
                     -"pip3 install urllib3"
 
-  -DO NOT CHANGE THE FOLDER STRUCTURE
+  -DO NOT CHANGE THE FOLDER STRUCTURE FOR THE APPLICATION FOLDER. 
 
-  -run the program with the command "python3 main.py 'argv' " from the root
+  -run the program with the command "python3 main.py " from the root
        directory of the application
-  -argv will be your use case argument.
+  -argv will be your use case argument. -NOTE: Argv is currently depricated from V0.0.2 onward in favour of command line arguments in the application.
 
-  ARGV:
+  ARGV: DEPRICATED      
     -'steamDB' : Generates a new database for the list of drm free steam games
     -'steamdrm?' : Allows you to check if a game has drm.
     -'gogDB' : Generates a new database file for all games on GOG
