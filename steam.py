@@ -1,10 +1,14 @@
 import csv
 import os
+import pprint
+import help
+import time
 
 ###############################################################################
 #Create Steam Database csv
-#passed arg: steamDB
+#passed argv: steamDB -DEPRICATED
 ###############################################################################
+
 def drmListOpen():
     lines=[]
     with open("dataBases/steam_drm_free.txt",'r') as fp:
@@ -13,10 +17,13 @@ def drmListOpen():
         while line:
             line.rstrip()
             lines.append(line)
-            #print(line)
             line=fp.readline()
             count+=1
-    return lines
+    print("Parsed drm free games.")
+    cleanedList=listCleaner(lines)
+    cleanedList=listOrganize(cleanedList)
+    print("Data has been cleaned")
+    return cleanedList
 
 def listCleaner(drmList):
     cleanedList=[]
@@ -26,8 +33,6 @@ def listCleaner(drmList):
                 cleanedList.append(line)
 
     cleanedList2=[]
-    counter=0
-    counter2=0
     temp=[]
     while len(cleanedList)!= 0:
         top=cleanedList.pop()
@@ -89,41 +94,51 @@ def listOrganize(cleanedList):
 
 ###############################################################################
 #Check if the game passed is in the steam drm free list
-#arg = steamdrm?
+#argv = steamdrm? -DEPRICATED
 ###############################################################################
 
+
+
 def exists(fetchedSteamDB):
+    os.system("clear")
     while 2==2:
         print(" ")
-        print("________________________________________________________________")
+        print("_____________________________________________________________________________")
         print(" ")
-        print("Type 'check' to see if the game on steam has drm")
-        print("Type 'back' to go back to the main menu")
+        print("Type "+help.pcol.B+'chk' +help.pcol.ENDC+" to see if the game on steam has drm.")
+        print("Type "+help.pcol.B+'bk' +help.pcol.ENDC+" to go back to the main menu.")
         text=input("Response: ")
-        if text == "check":
+        os.system("clear")
+        if text == "chk":
             while 2==2:
                 boo=0
                 print(" ")
-                print("________________________________________________________________")
+                print("_____________________________________________________________________________")
                 print(" ")
                 print("Type in the name of the game to check if its drm free.")
-                print("Type 'back' to go back")
+                print("Type "+help.pcol.B+'bk' +help.pcol.ENDC+ " to go back.")
                 text1=input("Response: ")
-                if text1 =="back":
+                os.system("clear")
+                if text1 =="bk":
+                    os.system("clear")
                     break
                 else:
                     for i in fetchedSteamDB:
                         if text1 in i[0]:
-                            print("Game is DRM Free")
-                            print(i)
+                            print(" ")
+                            print(" ")
+                            print(help.pcol.G+"    Game is DRM Free: "+help.pcol.ENDC+i[0]+" " +i[1])
+                            if(len(i)>2):
+                                print(help.pcol.Y+"    "+i[2]+help.pcol.ENDC)
                             boo=0
                             break
                         else:
                             boo=1
                     if(boo==1):
-                        print("The game you typed in: [ "+ text + " ] is not drm free")
+                        print(help.pcol.R+"The game you typed in: [ "+ text1 + " ] is not drm free."+help.pcol.ENDC)
 
-        elif text == "back":
+        elif text == "bk":
+            os.system("clear")
             break
         else:
-            print("Not a valid command, try again.")
+            print(help.pcol.R+"Not a valid command, please try again."+help.pcol.ENDC)
