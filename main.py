@@ -84,11 +84,7 @@ def main():
             fetchedSteamDB=openFile("dataBases/SteamDRMFree.csv")
             steam.exists(fetchedSteamDB)
         elif text =="gdb":
-            rawdb=gog.processGog()
-            writeOut=gog.createRaw(rawdb)
-            contents=gog.readRaw()
-            cleanedFile=gog.cleaner(contents)
-            createFile(cleanedFile,"dataBases/GOG.csv")
+            gog.processGog()
         elif text=="gog":
             fetchedGogDB=openFile("dataBases/GOG.csv")
             gog.selectAction(fetchedGogDB)
@@ -98,7 +94,7 @@ def main():
             opened_data=openFile("dataBases/gameDB.csv")
             settings.queryDB(opened_data)
         elif text=="quit":
-            print("Hope ya enjoyed!")
+            print(help.pcol.Y +"Hope ya enjoyed!")
             break
         else:
             print("Not a valid input please try again.")

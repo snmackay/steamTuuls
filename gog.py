@@ -11,6 +11,7 @@ import time
 ###############################################################################
 
 def processGog():
+    os.system("clear")
     outer=[]
     counter=1
     while counter<90:
@@ -39,91 +40,21 @@ def processGog():
         outer.append(a['products'])
         print("Pages Handled: "+str(counter))
         counter+=1
-    return outer
+    dbGen(outer)
 
-def createRaw(rawdb):
-    f= open('dataBases/rawFile.txt','w')
-    for i in rawdb:
-        f.write(str(i))
-    f.close()
-    print("Raw file generated")
-
-def readRaw():
-    f = open('dataBases/rawfile.txt','r')
-    returner=f.read()
-    return returner
-
-def cleaner(contents):
-    list=contents.split("{'publisher': ")
-    temp1=[]
-    for i in list:
-        inner=i.split(", ")
-        temp1.append(inner)
-
-    temp2=[]
-    temp1.pop(0)
-    for i in temp1:
-        inner=[]
-        wow=i[0]
-        wow=wow.replace("'","")
-        inner.append(wow)
+def dbGen(contents):
+    list=[]
+    for i in contents: #j is a dict. Parse assuming this now.
         for j in i:
-            k=j.replace("'","")
-            if 'supportedOperatingSystems' in k:
-                inner.append(k)
-            elif 'globalReleaseDate' in k:
-                inner.append(k)
-            elif 'isTBA' in k:
-                inner.append(k)
-            elif 'baseAmount' in k:
-                inner.append(k)
-            elif 'finalAmount' in k:
-                inner.append(k)
-            elif 'discountDifference' in k:
-                inner.append(k)
-            elif 'title' in k:
-                inner.append(k)
-        temp2.append(inner)
+            list.append(j)
 
-    temp3=[]
-    for i in temp2:
-        inner=[]
-        inner.append(i[7])
-        inner.append(i[0])
-        inner.append(i[5])
-        inner.append(i[4])
-        inner.append(i[6])
-        inner.append(i[1])
-        inner.append(i[2])
-        inner.append(i[3])
-        temp3.append(inner)
-
-    temp4=[]
-    for i in temp3:
-        inner=[]
-        counter=0
-        for j in i:
-            if counter==1:
-                inner.append(j)
-            else:
-                tempy=j.split(": ")
-                tempy=tempy[1]
-                tempy=tempy.replace("[","")
-                tempy=tempy.replace("]","")
-                inner.append(tempy)
-            counter+=1
-        temp4.append(inner)
-    print("Data has been cleaned")
-    return temp4
-
-#0 - Title
-#1 - Publisher
-#2 - finalAmount
-#3 - baseAmount
-#4 - discountDifference
-#5 - supportedOperatingSystems
-#6 - globalReleaseDate
-#7 - isTBA
+    keys=list[0].keys()
+    with open('dataBases/GOG.csv','w',newline='') as output_file:
+        dict_writer=csv.DictWriter(output_file,keys)
+        dict_writer.writeheader()
+        dict_writer.writerows(list)
+    print("Database has been generated.")
+    time.sleep(3)
 
 ###############################################################################
 
