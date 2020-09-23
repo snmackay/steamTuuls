@@ -23,24 +23,7 @@ Use:
     -'onGog' :  Allows you to Query if games exist on GOG and whats on sale
 
 
-                         ______                     
- _________        .---"""      """---.              
-:______.-':      :  .--------------.  :             
-| ______  |      | :                : |             
-|:______B:|      | |  steamTuuls:   | |             
-|:______B:|      | |                | |             
-|:______B:|      | |  Epic Tool     | |             
-|         |      | |  Have Fun!     | |             
-|:_____:  |      | |                | |             
-|    ==   |      | :                : |             
-|       O |      :  '--------------'  :             
-|       o |      :'---...______...---'              
-|       o |-._.-i___/'             \._              
-|'-.____o_|   '-.   '-...______...-'  `-._          
-:_________:      `.____________________   `-.___.-.
-                 .'.eeeeeeeeeeeeeeeeee.'.      :___:
-      fsc      .'.eeeeeeeeeeeeeeeeeeeeee.'.         
-              :____________________________:
+          
 
 
 DISCLAIMER: The goal is to promote games that do not use DRM utilities as they
