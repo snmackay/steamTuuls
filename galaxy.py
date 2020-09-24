@@ -385,7 +385,7 @@ if __name__ == "__main__":
 			[
 				['-o', '--output'],
 				{
-					'default': 'dataBases/gameDB.csv',
+					'default': 'dataBases/libraryDB.csv',
 					'type': str,
 					'nargs': 1,
 					'required': False,

@@ -1,9 +1,15 @@
 import csv
 import os
-import pprint
-import help
 import time
+import sys
+import urllib.request, json
+import requests
+from os import path
+from pathlib import Path
+import math
 
+import galaxy
+import ui
 ###############################################################################
 #Create Steam Database csv
 #passed argv: steamDB -DEPRICATED
@@ -90,55 +96,74 @@ def listOrganize(cleanedList):
 
 ###############################################################################
 
-
-
 ###############################################################################
-#Check if the game passed is in the steam drm free list
-#argv = steamdrm? -DEPRICATED
+#Code for parsing GOG database of Games
+#arg = gogDB
 ###############################################################################
 
+def processGog():
+    os.system('cls' if os.name == 'nt' else 'clear')
+    outer=[]
+    counter=1
+    while counter<90:
+        url= "https://www.gog.com/games/ajax/filtered?mediaType=game&page="+str(counter)+"&sort=popularity"
 
+        time.sleep(2)
 
-def exists(fetchedSteamDB):
-    os.system("clear")
-    while 2==2:
-        print(" ")
-        print("_____________________________________________________________________________")
-        print(" ")
-        print("Type "+help.pcol.B+'chk' +help.pcol.ENDC+" to see if the game on steam has drm.")
-        print("Type "+help.pcol.B+'bk' +help.pcol.ENDC+" to go back to the main menu.")
-        text=input("Response: ")
-        os.system("clear")
-        if text == "chk":
-            while 2==2:
-                boo=0
-                print(" ")
-                print("_____________________________________________________________________________")
-                print(" ")
-                print("Type in the name of the game to check if its drm free.")
-                print("Type "+help.pcol.B+'bk' +help.pcol.ENDC+ " to go back.")
-                text1=input("Response: ")
-                os.system("clear")
-                if text1 =="bk":
-                    os.system("clear")
-                    break
-                else:
-                    for i in fetchedSteamDB:
-                        if text1 in i[0]:
-                            print(" ")
-                            print(" ")
-                            print(help.pcol.G+"    Game is DRM Free: "+help.pcol.ENDC+i[0]+" " +i[1])
-                            if(len(i)>2):
-                                print(help.pcol.Y+"    "+i[2]+help.pcol.ENDC)
-                            boo=0
-                            break
-                        else:
-                            boo=1
-                    if(boo==1):
-                        print(help.pcol.R+"The game you typed in: [ "+ text1 + " ] is not drm free."+help.pcol.ENDC)
+        r = requests.get(url)
+        a = r.json()
+        for each in a['products']:
+            del each['gallery']
+            del each['video']
+            del each['image']
+            del each['url']
+            del each['supportUrl']
+            del each['forumUrl']
+            del each['type']
+            del each['isWishlistable']
+            del each['slug']
+            del each['isMovie']
+            del each['isGame']
+            del each['salesVisibility']
+            del each['customAttributes']
+            del each['developer']
+            del each['rating']
+        outer.append(a['products'])
+        print("Pages Handled: "+str(counter))
+        counter+=1
+    dbGen(outer)
 
-        elif text == "bk":
-            os.system("clear")
-            break
-        else:
-            print(help.pcol.R+"Not a valid command, please try again."+help.pcol.ENDC)
+def dbGen(contents):
+    list=[]
+    for i in contents: #j is a dict. Parse assuming this now.
+        for j in i:
+            list.append(j)
+
+    keys=list[0].keys()
+    with open('dataBases/GOG.csv','w',newline='') as output_file:
+        dict_writer=csv.DictWriter(output_file,keys)
+        dict_writer.writeheader()
+        dict_writer.writerows(list)
+    print("Database has been generated.")
+    time.sleep(3)
+
+################################################################################
+
+################################################################################
+#Local Games processing Code
+################################################################################
+
+def generateDB():
+    os.system('cls' if os.name == 'nt' else 'clear')
+    ui.picPrint("Loading in GOG Galaxy DB")
+    print("_____________________________________________________________________________")
+    try:
+        os.system('python3 galaxy.py -a')
+        time.sleep(2)
+    except:
+        print(ui.pcol.R + "file was not generated correctly.")
+        print(ui.pcol.Y + "Please copy the file 'galaxy-2.0.db' from:")
+        print(ui.pcol.G + "C:\\ProgramData\\GOG.com\\Galaxy\\storage\\galaxy-2.0.db" + ui.pcol.ENDC )
+    else:
+        print(ui.pcol.G + "database of games in GOG Galaxy 2 launcher completed creation" + ui.pcol.ENDC)
+    time.sleep(5)
