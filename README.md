@@ -40,11 +40,6 @@ Galaxy Integration:
 From their readme:
 Credit to original creators.
 
-NOTE: For galaxy integration to work, copy the file 'galaxy-2.0.db' from the
-      install directory of GOG Galaxy 2.
-      -C:\\ProgramData\\GOG.com\\Galaxy\\storage\\galaxy-2.0.db is the standard
-      path
-
 
 # GOG Galaxy 2.0 Export Script
 
