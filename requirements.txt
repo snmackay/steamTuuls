@@ -3,4 +3,6 @@ natsort
 urllib3
 requests
 
+#On linux install mpg123 for music 
+
 ###### Requirements with Version Specifiers ######`

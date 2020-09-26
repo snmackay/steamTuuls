@@ -8,33 +8,37 @@ import requests
 from os import path
 from pathlib import Path
 import math
+import re
 
-import galaxy
+
 import ui
 
-###############################################################################
-#Check if the game passed is in the steam drm free list
-#argv = steamdrm? -DEPRICATED
-###############################################################################
+################################################################################
+"""
+Check if the game passed is in the steam drm free list
+"""
+################################################################################
+
+#main function for checking drm status of a game from steam
 def exists(fetchedSteamDB):
     os.system('cls' if os.name == 'nt' else 'clear')
     while 2==2:
         print(" ")
-        print("_____________________________________________________________________________")
+        print(ui.pcol.Blank)
         print(" ")
-        print("Type "+ui.pcol.B+'chk' +ui.pcol.ENDC+" to see if the game on steam has drm.")
-        print("Type "+ui.pcol.B+'bk' +ui.pcol.ENDC+" to go back to the main menu.")
-        text=input("Response: ")
+        print(ui.pcol.B+'chk' +ui.pcol.ENDC+" - check if your steam game has drm.")
+        print(ui.pcol.B+'bk' +ui.pcol.ENDC+" - go back to the main menu.")
+        text=input(": ")
         os.system('cls' if os.name == 'nt' else 'clear')
         if text == "chk":
             while 2==2:
                 boo=0
                 print(" ")
-                print("_____________________________________________________________________________")
+                print(ui.pcol.Blank)
                 print(" ")
-                print("Type in the name of the game to check if its drm free.")
-                print("Type "+ui.pcol.B+'bk' +ui.pcol.ENDC+ " to go back.")
-                text1=input("Response: ")
+                print(ui.pcol.P + "Type in the name of the game to check if its drm free." + ui.pcol.ENDC)
+                print(ui.pcol.B+'bk' +ui.pcol.ENDC+ " - go back to previous menu.")
+                text1=input(": ")
                 os.system('cls' if os.name == 'nt' else 'clear')
                 if text1 =="bk":
                     os.system('cls' if os.name == 'nt' else 'clear')
@@ -60,23 +64,18 @@ def exists(fetchedSteamDB):
         else:
             print(ui.pcol.R+"Not a valid command, please try again."+ui.pcol.ENDC)
 
-################################################################################
 
 ###############################################################################
-#code for the backend of the gog store query menu
-#arg = onGog
+"""
+code for the backend of the gog store query menu
+"""
 ###############################################################################
 
-def gogOpen():
-    with open('dataBases/GOG.csv') as f:
-        a = [{k: str(v) for k, v in row.items()}
-            for row in csv.DictReader(f, skipinitialspace=True)]
-    return a
 
-def selectAction():
+
+def selectAction(gogdata):
     os.system('cls' if os.name == 'nt' else 'clear')
     ui.picPrint("GOG Store Page")
-    gogdata=gogOpen()
     while 0==0:
         text=ui.gogQueryMenu()
         if text =="look":
@@ -125,10 +124,8 @@ def gamesOnSale(gogdata):
 
 
 ################################################################################
-
-################################################################################
 """
-#Code for querying the local games data from GOG Galaxy 2.0
+Code for querying the local games data from GOG Galaxy 2.0
 """
 ################################################################################
 
@@ -143,67 +140,35 @@ def timeTotalHelp(opened_data):
     hours,mins=divmod(float(sum),60)
     return("Hours:"+str(hours)+" Minutes:"+str(mins))
 
-def platformHelp(opened_data,game):
-    sum=0
-    platform=""
-    if game=="steam":
-        platform="['Steam']"
-    elif game=="epic":
-        platform="['Epic Games Store']"
-    elif game=="playstation":
-        platform="['PlayStation Network']"
-        
-def queryDBHelper(opened_data,text):
-
-    while 2==2:
-        try:
-            text=text.split(": ")
-            command=text[0]
-            game=text[1]
-        except:
-            print("_____________________________________________________________________________")
-            print(ui.pcol.R + "Command not valid. Try again" + ui.pcol.ENDC)
-            time.sleep(3)
-            break
-
+def platformHelper(platformyey,i, command):
+    if command == "p":
+        if platformyey in i[2].lower():
+            print(ui.pcol.G + "Title: " + ui.pcol.Y + i[0] + ui.pcol.ENDC)
+            print(" ")
+            return 1
+        elif platformyey =="all":
+            print(ui.pcol.G + "Title: " + ui.pcol.Y + i[0] + ui.pcol.ENDC)
+            print(" ")
+            return 1
         else:
-            bool=0
-            os.system('cls' if os.name == 'nt' else 'clear')
-            for i in opened_data:
-                if command=="t":
-                    print(timeTotalHelp(opened_data))
-                    bool=1
-                    break
-                #elif command =="n":
-                #    platformHelp(opened_data,game)
-                #    bool=1
-                #    break
+            return 0
+    else:
+        platforms=i[2]
+        platforms=platforms[2:-2]
+        platforms=platforms.split("', '")
+        if len(platforms) == 1:
+            return 0
+        else:
+            print(ui.pcol.G + "Title: " + ui.pcol.Y + i[0] + ui.pcol.ENDC)
+            print(ui.pcol.G + "Platforms: " + ui.pcol.Y + str(platforms) + ui.pcol.ENDC)
+            print(" ")
+            return 1
 
-                elif game in i[0]:
-                    bool=1
-                    if command=="e":
-                        print(ui.pcol.G + "You own this game: " + ui.pcol.Y +i[0] + ui.pcol.ENDC)
-                        print(" ")
-
-                    elif command=="s":
-                        ui.galaxyUI(i)
-                    elif command=="p":
-                        print(ui.pcol.G + "Title: " + ui.pcol.Y + i[0] +ui.pcol.ENDC)
-                        print(ui.pcol.G + "Time Played: " + ui. pcol.Y + i[9] +" minutes." + ui.pcol.ENDC)
-                        print(" ")
-
-            if bool==0:
-                print("You dont own this game.")
-
-        print(" ")
-        print(ui.pcol.B + "bk" + ui.pcol.ENDC +" - go back and select another option.")
-        text=input(": ")
-        if text=="bk":
-            break
 
 def queryDB(opened_data):
     os.system('cls' if os.name == 'nt' else 'clear')
 
+    #outer loop handling galaxy 2 main menu
     while 2==2:
         os.system('cls' if os.name == 'nt' else 'clear')
         ui.picPrint("Games Library Viewer.")
@@ -211,4 +176,123 @@ def queryDB(opened_data):
         if text=="bk":
             break
         else:
-            queryDBHelper(opened_data,text)
+            try:
+                text=text.split(": ")
+                command=text[0]
+                game=text[1].lower()
+            except:
+                print(ui.pcol.Blank)
+                print(ui.pcol.R + "Command not valid. Try again" + ui.pcol.ENDC)
+                time.sleep(3)
+
+            else:
+                bool=0
+                os.system('cls' if os.name == 'nt' else 'clear')
+                for i in opened_data:
+                    titleTemp=i[0].lower()
+                    if command=="t":
+                        print(timeTotalHelp(opened_data))
+                        bool=1
+                        break
+
+                    elif command == "p" or command == "d":
+                        bool+=platformHelper(game,i,command)
+
+                    elif game in titleTemp:
+                        bool=1
+                        if command=="e":
+                            print(ui.pcol.G + "You own this game: " + ui.pcol.Y +i[0] + ui.pcol.ENDC)
+                            print(" ")
+
+                        elif command=="s":
+                            ui.galaxyUI(i)
+
+
+                if bool==0:
+                    print(ui.pcol.R + "You dont own this game." + ui.pcol.ENDC)
+                elif bool >=1 and command == "p" or command == "d":
+                    print(ui.pcol.C + str(bool) + ui.pcol.ENDC)
+
+                print(" ")
+                print(ui.pcol.B + "bk" + ui.pcol.ENDC +" - go back and select another option.")
+                text=input(": ")
+
+
+################################################################################
+"""
+Code for printing menus
+"""
+################################################################################
+
+#drm free printer function
+def printDRMFree(opened_data,fetchedSteamDB):
+    listy=[]
+    regex = re.compile('[^a-zA-Z0-9]')
+
+    for j in fetchedSteamDB:
+        for i in opened_data:
+            inner=j[0].split(": ",1)
+            inner=inner[1]
+            regex.sub(' ',inner)
+            inner2=i[0]
+            regex.sub(' ',inner2)
+            inner=inner.replace("-","")
+            inner=inner.replace(" - ","")
+            inner=inner.replace('  ',' ')
+            inner2=inner2.replace("-","")
+            inner2=inner2.replace(" - ","")
+            inner2=inner2.replace('  ',' ')
+            if inner in inner2:
+                if "Steam" in i[2]:
+                    listy.append(str(i[0]))
+
+    listy=list(dict.fromkeys(listy))
+    with open('outputs/drmFreeSteamGamesOwned.txt', 'w') as filehandle:
+        for listitem in listy:
+            filehandle.write('%s\n' % listitem)
+
+#printing all games that are on multiple platforms to a file.
+def printDuplicates(opened_data,fetchedSteamDB):
+    listy=[]
+    for i in opened_data:
+        inner=i[2][2:-2].split("', '")
+        if len(inner) > 1:
+            inner2="Title: " + i[0] + " | Platforms: "
+            for j in inner:
+                inner2=inner2+str(j) + " ; "
+            listy.append(inner2)
+    with open('outputs/duplicates.txt', 'w') as filehandle:
+        for listitem in listy:
+            filehandle.write('%s\n' % listitem)
+
+#function to generate file of all owned games on a specific platform.
+def printLibrary(opened_data,text):
+    listy=[]
+    for i in opened_data:
+        if text in i[2][2:-2].lower():
+            listy.append(i[0])
+    with open('outputs/'+text+'.txt', 'w') as filehandle:
+        for listitem in listy:
+            filehandle.write('%s\n' % listitem)
+
+
+#main printer function
+def printerFun(opened_data,fetchedSteamDB):
+    while 2==2:
+        os.system('cls' if os.name == 'nt' else 'clear')
+        ui.picPrint("Print Menu.")
+        text=ui.printUI()
+        if text.lower() == "bk":
+            break
+        elif text.lower() == "drmfree":
+            printDRMFree(opened_data,fetchedSteamDB)
+            print(ui.pcol.G + "file" + ui.pcol.B + " 'drmFreeSteamGamesOwned.txt' " + ui.pcol.G + "generated in 'outputs' folder." + ui.pcol.ENDC)
+            time.sleep(3)
+        elif text.lower() =="duplicates":
+            printDuplicates(opened_data,fetchedSteamDB)
+            print(ui.pcol.G + "file" + ui.pcol.B + " 'duplicates.txt' " + ui.pcol.G + "generated in 'outputs' folder." + ui.pcol.ENDC)
+            time.sleep(3)
+        else:
+            printLibrary(opened_data,text.lower())
+            print(ui.pcol.G + "file " + ui.pcol.B + "'" + text.lower() + ".txt' " + ui.pcol.G + "generated in 'outputs' folder." + ui.pcol.ENDC)
+            time.sleep(3)

@@ -10,10 +10,13 @@ import math
 
 import galaxy
 import ui
-###############################################################################
-#Create Steam Database csv
-#passed argv: steamDB -DEPRICATED
-###############################################################################
+
+
+################################################################################
+"""
+Create Steam Database csv
+"""
+################################################################################
 
 def drmListOpen():
     lines=[]
@@ -25,10 +28,10 @@ def drmListOpen():
             lines.append(line)
             line=fp.readline()
             count+=1
-    print("Parsed drm free games.")
+    print(ui.pcol.G + "Parsed drm free games." + ui.pcol.ENDC)
     cleanedList=listCleaner(lines)
     cleanedList=listOrganize(cleanedList)
-    print("Data has been cleaned")
+    print(ui.pcol.G + "Data has been cleaned" + ui.pcol.ENDC)
     return cleanedList
 
 def listCleaner(drmList):
@@ -94,12 +97,12 @@ def listOrganize(cleanedList):
 
     return newList
 
-###############################################################################
 
-###############################################################################
-#Code for parsing GOG database of Games
-#arg = gogDB
-###############################################################################
+################################################################################
+"""
+Code for parsing GOG database of Games
+"""
+################################################################################
 
 def processGog():
     os.system('cls' if os.name == 'nt' else 'clear')
@@ -129,7 +132,7 @@ def processGog():
             del each['developer']
             del each['rating']
         outer.append(a['products'])
-        print("Pages Handled: "+str(counter))
+        print(ui.pcol.G + "Pages Handled: " + ui.pcol.ENDC + str(counter))
         counter+=1
     dbGen(outer)
 
@@ -144,19 +147,20 @@ def dbGen(contents):
         dict_writer=csv.DictWriter(output_file,keys)
         dict_writer.writeheader()
         dict_writer.writerows(list)
-    print("Database has been generated.")
+    print(ui.pcol.G + "Database has been generated." + ui.pcol.ENDC)
     time.sleep(3)
 
-################################################################################
 
 ################################################################################
-#Local Games processing Code
+"""
+Local Games processing Code
+"""
 ################################################################################
 
 def generateDB():
     os.system('cls' if os.name == 'nt' else 'clear')
     ui.picPrint("Loading in GOG Galaxy DB")
-    print("_____________________________________________________________________________")
+    print(ui.pcol.Blank)
     try:
         os.system('python3 galaxy.py -a')
         time.sleep(2)
@@ -167,3 +171,30 @@ def generateDB():
     else:
         print(ui.pcol.G + "database of games in GOG Galaxy 2 launcher completed creation" + ui.pcol.ENDC)
     time.sleep(5)
+
+
+
+################################################################################
+"""
+Code for opening database files generated.
+"""
+################################################################################
+def gogOpen():
+    with open('dataBases/GOG.csv') as f:
+        a = [{k: str(v) for k, v in row.items()}
+            for row in csv.DictReader(f, skipinitialspace=True)]
+    return a
+
+
+def createFile(cleanedList,fileName):
+    with open(fileName, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(cleanedList)
+
+def openFile(fileName):
+    with open(fileName) as csv_file:
+        csv_reader = csv.reader(csv_file, delimiter=',')
+        array_boii=[]
+        for row in csv_reader:
+            array_boii.append(row)
+    return array_boii
