@@ -1,29 +1,14 @@
-steamTuuls: A set of helpful tools for quickly finding prices and seeing if
-            games are drm free.
+# Welcome to the steamTuuls wiki!
 
-NOTE: ARGV is depricated from version 0.0.2, follow the onscreen prompts.
+## About: 
+Author: Sean Mackay \
+Date originally created: 9/19/2020 \
+Current Shipped Version: V0.2  
 
-Author: Sean Mackay
+## Pages of this wiki:
+-Setup and requirements \
+-Main Menu: Covers functionality of the main menu of steamTuuls.
 
-Use:
-  -prerequisites: Have python3 installed on your machine
-                  Make sure urllib3 is installed by running
-                    -"pip3 install urllib3"
-
-  -DO NOT CHANGE THE FOLDER STRUCTURE
-
-  -run the program with the command "python3 main.py 'argv' " from the root
-       directory of the application
-  -argv will be your use case argument.
-
-  ARGV:
-    -'steamDB' : Generates a new database for the list of drm free steam games
-    -'steamdrm?' : Allows you to check if a game has drm.
-    -'gogDB' : Generates a new database file for all games on GOG
-    -'onGog' :  Allows you to Query if games exist on GOG and whats on sale
-
-
-          
 
 
 DISCLAIMER: The goal is to promote games that do not use DRM utilities as they
