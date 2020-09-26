@@ -8,53 +8,57 @@ import sys
 import urllib, json
 import time
 
+
 import ui
 import database
 import logic
 
-def createFile(cleanedList,fileName):
-    with open(fileName, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(cleanedList)
 
-def openFile(fileName):
-    with open(fileName) as csv_file:
-        csv_reader = csv.reader(csv_file, delimiter=',')
-        array_boii=[]
-        for row in csv_reader:
-            array_boii.append(row)
-    return array_boii
 
 def main():
     os.system('cls' if os.name == 'nt' else 'clear')
+    #fetch all database files first.
+
     while 0==0:
         os.system('cls' if os.name == 'nt' else 'clear')
         ui.picPrint("WELCOME TO STEAMTUULS!")
         text=ui.mainMenu()
+
+        #file exists safety checks
+        existsdrm= os.path.isfile('dataBases/SteamDRMFree.csv')
+        existsgog= os.path.isfile('dataBases/GOG.csv')
+        existgalax= os.path.isfile('dataBases/libraryDB.csv')
+
+        #database generation tools
         if text=="sdb":
-            createFile(database.drmListOpen(),"dataBases/SteamDRMFree.csv")
-            print("database creation successful")
+            database.createFile(database.drmListOpen(),"dataBases/SteamDRMFree.csv")
+            print(ui.pcol.G + "database creation successful" + ui.pcol.ENDC)
             time.sleep(3)
-        elif text=="sdrm":
-            fetchedSteamDB=openFile("dataBases/SteamDRMFree.csv")
-            logic.exists(fetchedSteamDB)
         elif text =="gdb":
             database.processGog()
-        elif text=="gog":
-            logic.selectAction()
         elif text=="galdb":
             database.generateDB()
-        elif text == "galax":
-            opened_data=openFile("dataBases/libraryDB.csv")
+
+        #querys
+        elif text=="sdrm" and existsdrm:
+            fetchedSteamDB=database.openFile("dataBases/SteamDRMFree.csv")
+            logic.exists(fetchedSteamDB)
+        elif text=="gog" and existsgog:
+            gogdata=database.gogOpen()
+            logic.selectAction(gogdata)
+        elif text == "galax" and existgalax:
+            opened_data=database.openFile("dataBases/libraryDB.csv")
             logic.queryDB(opened_data)
+        elif text =="print" and existsdrm and existgalax:
+            fetchedSteamDB=database.openFile("dataBases/SteamDRMFree.csv")
+            opened_data=database.openFile("dataBases/libraryDB.csv")
+            logic.printerFun(opened_data,fetchedSteamDB)
         elif text=="quit":
             print(ui.pcol.Y +"Hope ya enjoyed!")
             break
         else:
-            print(ui.pcol.R + "Not a valid command please try again." + ui.pcol.ENDC)
+            print(ui.pcol.R + "Not a valid command please try again, or the command you tried is missing a database file." + ui.pcol.ENDC)
             time.sleep(3)
-
-
 
 
 if "__name__==__main__":
