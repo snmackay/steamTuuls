@@ -10,8 +10,28 @@ Current Shipped Version: V0.2
 -Main Menu: Covers functionality of the main menu of steamTuuls.
 
 
+# Setup
+Read this section carefully. This is still in beta so there is no .exe version. This will come for both \
+linux and Windows in the future. 
 
-DISCLAIMER: The goal is to promote games that do not use DRM utilities as they
+## Notes: 
+-This was developed and tested on linux using WSL2. \
+-GOG Galaxy 2.0 is a major requirement for this app. Without it, many features simply do not work. \
+-This is a cli application and requires python 3.5 or later to run. \
+-This is a beta release so there will be issues potentially. This is untested on windows but it should work. \
+
+## Installation: 
+1: Download the codebase from github and extract to a folder. Do not modify the folder structure. \
+2: Ensure python3 and pip3 is installed on your machine. \
+3: Install all requirements with the requirements.txt \
+-this can be done using the command 'pip3 install -r requirements.txt' from the main directory of the app. \
+4: Run the program using 'python3 main.py' \
+5: Follow the on screen prompts for use. \
+6: For galaxy integration to work, copy the file 'galaxy-2.0.db' from the install directory of GOG Galaxy 2.\
+Place this file in the dataBases folder. \
+ Note: -C:\ProgramData\GOG.com\Galaxy\storage\galaxy-2.0.db is the standard path
+
+##DISCLAIMER: The goal is to promote games that do not use DRM utilities as they
             are detrimental to the customer experience. Illegal use of this
             application is prohibited, know your local laws.
 
