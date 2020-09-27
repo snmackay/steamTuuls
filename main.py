@@ -1,17 +1,15 @@
 #welcome to steamTuuls
 #snmackay
 #This tool is not meant for any malicious or criminal activity.
-
 import os
 import csv
 import sys
 import urllib, json
 import time
 
-
-import ui
-import database
-import logic
+from lib import ui
+from lib import database
+from lib import logic
 
 
 
@@ -30,30 +28,33 @@ def main():
         existgalax= os.path.isfile('dataBases/libraryDB.csv')
 
         #database generation tools
-        if text=="sdb":
-            database.createFile(database.drmListOpen(),"dataBases/SteamDRMFree.csv")
+        if text=="1":
+            database.processDrm()
             print(ui.pcol.G + "database creation successful" + ui.pcol.ENDC)
             time.sleep(3)
-        elif text =="gdb":
+        elif text =="2":
             database.processGog()
-        elif text=="galdb":
-            database.generateDB()
+            print(ui.pcol.G + "database creation successful" + ui.pcol.ENDC)
+            time.sleep(3)
+        elif text=="3":
+            database.processLib()
+            print(ui.pcol.G + "database creation successful" + ui.pcol.ENDC)
+            time.sleep(3)
 
         #querys
-        elif text=="sdrm" and existsdrm:
-            fetchedSteamDB=database.openFile("dataBases/SteamDRMFree.csv")
-            logic.exists(fetchedSteamDB)
-        elif text=="gog" and existsgog:
-            gogdata=database.gogOpen()
-            logic.selectAction(gogdata)
-        elif text == "galax" and existgalax:
-            opened_data=database.openFile("dataBases/libraryDB.csv")
-            logic.queryDB(opened_data)
-        elif text =="print" and existsdrm and existgalax:
-            fetchedSteamDB=database.openFile("dataBases/SteamDRMFree.csv")
-            opened_data=database.openFile("dataBases/libraryDB.csv")
-            logic.printerFun(opened_data,fetchedSteamDB)
-        elif text=="quit":
+        elif text=="s" and existsdrm:
+            logic.drmMenu(database.openListCsv("dataBases/SteamDRMFree.csv"))
+
+        elif text=="g" and existsgog:
+            logic.gogMenu(database.openDictCsv())
+
+        elif text == "l" and existgalax:
+            logic.galaxyMenu(database.openListCsv("dataBases/libraryDB.csv"))
+
+        elif text =="p" and existsdrm and existgalax:
+            logic.printMenu(database.openListCsv("dataBases/libraryDB.csv"),database.openListCsv("dataBases/SteamDRMFree.csv"))
+
+        elif text=="q":
             print(ui.pcol.Y +"Hope ya enjoyed!")
             break
         else:

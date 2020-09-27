@@ -1,0 +1,123 @@
+main.py -> main( 
+	main() -> ui.picPrint()
+	main() -> ui.mainMenu() -> text
+	main() -> text==1 -> database.processDrm()
+	main() -> text==2 -> database.processGog()
+	main() -> text==3 -> database.processLib()
+	main() -> text==s -> logic.drmMenu(database.openListcsv())
+	main() -> text==g -> logic.gogMenu(database.openDictCsv())
+	main() -> text==l -> logic.galaxyMenu(database.openListcsv())
+	main() -> text==p -> logic.printMenu(database.openListcsv(),database.openListcsv())
+	main() -> text==q -> ()
+	main() -> _ -> main() 
+)
+
+	
+lib/database.py -> (
+	processDrm(
+		listCleaner() #32
+		createListCsv() #35
+	)
+		listCleaner(
+		)
+		
+	processGog(
+		createDictCsv()
+	)
+		
+	processLib(
+		ui.picPrint()
+		os.system(lib/galaxy.py)
+	)
+	
+	createDictCsv(
+	)
+	openDictCsv(
+	)
+	createListCsv(
+	)
+	openListCsv(
+	)
+)
+
+
+lib/logic.py -> (
+	drmMenu(
+		ui.drmMenuUI() -> text -> (
+			                        text == c ->(
+												ui.drmCheckMenu() -> text1 ->(
+																				text1==b -> ()
+																				_ -> ()
+																			)
+												)
+									text == b -> ()	
+								)
+			)
+	
+	gogMenu(
+		ui.gogMenuUI() -> text ->(
+										text == l -> gogSells()
+										text == s -> gogOnSale() -> []
+										text == g -> gogGenre() -> []
+										text == b -> break
+										_ -> gogMenu()
+									)
+	)
+	gogSells(
+		text == b -> existsGog()
+		_ -> ui.gogGameSearch()
+	)
+	gogOnSale(
+	)
+	gogGenre(
+		ui.genreUI() -> text ->()
+	)
+	
+	galaxyMenu(
+		ui.picPrint()
+		ui.libraryUI -> text ->(
+								text==b -> ()
+								command::text ->(
+												command == t -> print(timeTotalHelp())
+												command == p -> platformHelper()
+												command == d -> platformHelper()
+												command == e -> ()
+												command == s -> ui.galaxyUI
+												)
+								)
+	)
+	timeTotalHelp(
+	)
+	platformHelper(
+	)
+	
+	printMenu(
+		ui.picPrint()
+		ui.printUI() -> text ->(
+								text ==b -> ()
+								text ==f -> printDRMFree()
+								text ==d -> printDuplicates()
+								_ -> `printLibrary()
+								)
+	)
+	printDRMFree(
+	)
+	printDuplicates(
+	)
+	printLibrary(
+	)
+)	
+
+
+
+
+
+Notes: 
+
+pick game for you to play based on genre and playtime and rating. 
+-low playimte
+-high review
+
+review/(playtime*.1) - -set playtime to 0.5 if never played.
+
+
